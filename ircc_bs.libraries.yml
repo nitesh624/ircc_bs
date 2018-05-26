@@ -1,0 +1,32 @@
+global-styling:
+  css:
+    theme:
+      css/custom.css: {}
+      css/main.css: {}
+  js:
+    js/custom.js: {}
+    js/SmoothScroll.min.js: {}
+  dependencies:
+    - core/jquery
+
+font-awesome:
+  version: 4.3.0
+  css:
+    theme:
+      includes/font-awesome/css/font-awesome.min.css: {}
+
+webfonts:
+  version: VERSION
+  css:
+    theme:
+      //fonts.googleapis.com/css?family=Oswald|Roboto|Roboto+Condensed: { type: external }
+
+additional-library:
+  css:
+    theme:
+      includes/bootstrap-dropdownhover.min.css: {}
+      includes/animate.css: {}
+  js:
+    includes/bootstrap-dropdownhover.min.js: {}
+  dependencies:
+    - core/jquery
