@@ -201,7 +201,8 @@
   {% endif %}
 
       <!-- news start -->
-    {% if page.news or page.events and is_front %}
+  {% if is_front %}
+    {% if page.news or page.events %}
       <section id = "news-wrap">
           <div class="container-fluid">
           <div class="row">
@@ -219,6 +220,7 @@
           </div>
       </section>
     {% endif %}
+  {% endif %}
       <!-- news end -->
 
       <!-- Research Begin-->
