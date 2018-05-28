@@ -21,3 +21,9 @@ function ircc_bs_preprocess_block(&$variables) {
   }
 }
 
+// function ircc_bs_preprocess_menu__content_updation(&$variables) {
+
+//   ksm($variables);
+//   // We require Modernizr's touch test for button styling.
+//   //$variables['#attached']['library'][] = 'core/modernizr';
+// }

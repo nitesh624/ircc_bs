@@ -27,7 +27,9 @@
   </a>
   {% endif %}
   {% if site_name %}
-    <a class="name navbar-brand" href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">{{ site_name }}</a>
+    <a class="navbar-brand name" href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">
+    {{ site_name }}
+    </a>
   {% endif %}
    {# <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">
         <img class="sec-logo" src= "http://rnd.iitb.ac.in/themes/ircc_new/img/iitb-dj.png" alt="{{ 'Home'|t }}" />
