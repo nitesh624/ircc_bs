@@ -644,10 +644,10 @@ left: 100%;
 	z-index: 2;
 }
 
-.slick-list img{
+/* .slick-list img{
     width: 100% !important;
     height: 150px!important;
-  }
+  } */
 
   p.rh-page-cont-title{
     font-size: 1rem;

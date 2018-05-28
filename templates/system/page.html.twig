@@ -291,7 +291,9 @@
         {% if not is_front %}
           {% block content %}
             <a id="main-content"></a>
-            {{ page.content }}
+            <div class="container">
+              {{ page.content }}
+            </div>
           {% endblock %}
         {% endif %}
         </section>
