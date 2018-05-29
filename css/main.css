@@ -271,11 +271,12 @@ body .lh_20{
   font-weight: 800; }
 
 /* button */
-.btn {
+
+/* .btn {
   font-family: 'Montserrat', sans-serif;
   border-radius: 4px;
   font-size: 16px;
-  font-size: 1rem; }
+  font-size: 1rem; } */
 
 .btn-outline {
   background: transparent;
@@ -517,22 +518,30 @@ left: 100%;
     -webkit-box-shadow: inset 0 1px 1px rgba(74, 65, 65, 0.075), 0 0 8px #277dd6;
     box-shadow: inset 0 1px 1px rgba(74, 65, 65, 0.075), 0 0 8px #277dd6;
   }
-  #views-exposed-form-solr-search-content-page-1{
-    margin-top: 2em;
-  }
-
-  @media (min-width: 767px) {
-    #edit-submit-solr-search-content{
+ 
+  @media screen and (max-width: 500px) {
+    .navbar-text{
       display: none;
     }
-
   }
+  @media screen and (max-width: 767px){
+    .navbar-brand{
+      font-size: 14px;
+      padding: 0;
+      font-weight: normal;
+      margin-left: 58px;
+      float:none;
+      text-align: left;
+    }
+  }
+   
+  
 
   /*header end*/
 
+
   /* front page sections */
   #main-wrap {
-    padding-top: 5%;
     padding-bottom: 10%;
     width: 100%;
     height:100%;
@@ -644,10 +653,10 @@ left: 100%;
 	z-index: 2;
 }
 
-/* .slick-list img{
+.slick-list img{
     width: 100% !important;
     height: 150px!important;
-  } */
+  } 
 
   p.rh-page-cont-title{
     font-size: 1rem;
@@ -670,12 +679,21 @@ left: 100%;
 
 
   /* top box front page */
+
+  .top-wrapper{
+    padding-right: 0;
+  }
   .top_box_bg{
     background-color: lightgray;
     border-radius: 8px;
   }
   .box-container{
     position: relative;
+  }
+
+  .box-container img{
+    height: 280px;
+    width: 100%;
   }
 
   .link-overlay{
@@ -709,7 +727,7 @@ left: 100%;
   .box-summary{
     background-color: rgba(0,0,0,0.7);
       position: absolute;
-      bottom: 35%;
+      bottom: 40%;
       width: 100%;
       text-align: center;
       font-size: 1.3em;

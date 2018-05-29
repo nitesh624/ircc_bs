@@ -51,5 +51,7 @@
   	    	//if scrolling down...
   	    	mainHeader.addClass('is-hidden');
   	    }
-  	}
+	  }
+
 }(jQuery);
+

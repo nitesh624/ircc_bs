@@ -87,7 +87,7 @@
               <div id="navbar-collapse" class="navbar-collapse collapse navbar-right">
                 {{ page.navigation_collapsible }}
               </div>
-            {% endif %}
+            {% endif %}     
           </div>
       </div>
 
@@ -105,35 +105,40 @@
     {# Highlighted #}
     {% if page.highlighted %}
       {% block highlighted %}
-        <div class="highlighted">
-          {{ page.highlighted }}
+        <div class="highlighted row">
+          <div class="col-md-12"
+            {{ page.highlighted }}
+          </div>
         </div>
       {% endblock %}
     {% endif %}
-
-    {% if page.top_head and is_front %}
-      {% block top_head %}
-      <div class="top_head">
-            {{ page.top_head }}
-      </div>
+ 
+  <section id="main-wrap">
+    {% if page.top_head %}
+     {% block top_head %}
+          <div class="top_head row">
+            <div class="col-md-12">
+                {{ page.top_head }}
+            </div>
+          </div>
       {% endblock %}
     {% endif %}
 
-  {% if is_front %}
+    {% if is_front %}
     {% if page.top1 or page.top2 or page.top3 or page.top4 %}
-      <section id="main-wrap">
-        <div class="row clearfix">
+      
+          <div class="row clearfix">
             {% if page.top1 %}
               {% if page.top2 and page.top3 and page.top4 %}
-                <div class="col-lg-3 col-md-3">
+                <div class="col-lg-3 col-md-3 col-sm-6 top-wrapper">
                 {% elseif page.top2 and page.top3 %}
-                  <div class="col-lg-4 col-md-4">
+                  <div class="col-lg-4 col-md-4 top-wrapper">
                 {% elseif page.top2 and page.top4 %}
-                  <div class="col-lg-4 col-md-4">
+                  <div class="col-lg-4 col-md-4 top-wrapper">
                 {% elseif page.top3 and page.top4 %}
-                  <div class="col-lg-4 col-md-4">
+                  <div class="col-lg-4 col-md-4 top-wrapper">
                 {% elseif page.top2 or page.top3 or page.top4 %}
-                  <div class="col-lg-6 col-md-6">
+                  <div class="col-lg-6 col-md-6 top-wrapper">
                 {% else  %}
                   <div class="col-lg-12">
               {% endif %}
@@ -143,15 +148,15 @@
 
             {% if page.top2 %}
               {% if page.top1 and page.top3 and page.top4 %}
-                <div class="col-lg-3 col-md-3">
+                <div class="col-lg-3 col-md-3 col-sm-6 top-wrapper">
                 {% elseif page.top1 and page.top3 %}
-                  <div class="col-lg-4 col-md-4">
+                  <div class="col-lg-4 col-md-4 top-wrapper">
                 {% elseif page.top1 and page.top4 %}
-                  <div class="col-lg-4 col-md-4">
+                  <div class="col-lg-4 col-md-4 top-wrapper">
                 {% elseif page.top3 and page.top4 %}
-                  <div class="col-lg-4 col-md-4">
+                  <div class="col-lg-4 col-md-4 top-wrapper">
                 {% elseif page.top1 or page.top3 or page.top4 %}
-                  <div class="col-lg-6">
+                  <div class="col-lg-6 col-md-6 top-wrapper">
                 {% else  %}
                   <div class="col-lg-12">
               {% endif %}
@@ -161,15 +166,15 @@
 
             {% if page.top3 %}
               {% if page.top1 and page.top2 and page.top4 %}
-                <div class="col-lg-3 col-md-3">
+                <div class="col-lg-3 col-md-3 col-sm-6 top-wrapper">
                 {% elseif page.top1 and page.top2 %}
-                  <div class="col-lg-4 col-md-4">
+                  <div class="col-lg-4 col-md-4 top-wrapper">
                 {% elseif page.top1 and page.top4 %}
-                  <div class="col-lg-4 col-md-4">
+                  <div class="col-lg-4 col-md-4 top-wrapper">
                 {% elseif page.top2 and page.top4 %}
-                  <div class="col-lg-4 col-md-4">
+                  <div class="col-lg-4 col-md-4 top-wrapper">
                 {% elseif page.top1 or page.top2 or page.top4 %}
-                  <div class="col-lg-6">
+                  <div class="col-lg-6 col-md-6 top-wrapper">
                 {% else  %}
                   <div class="col-lg-12">
               {% endif %}
@@ -179,26 +184,25 @@
 
             {% if page.top4 %}
               {% if page.top1 and page.top2 and page.top3 %}
-                <div class="col-lg-3 col-md-3">
+                <div class="col-lg-3 col-md-3 col-sm-6 top-wrapper">
                 {% elseif page.top1 and page.top2 %}
-                  <div class="col-lg-4 col-md-4">
+                  <div class="col-lg-4 col-md-4 top-wrapper">
                 {% elseif page.top1 and page.top3 %}
-                  <div class="col-lg-4 col-md-4">
+                  <div class="col-lg-4 col-md-4 top-wrapper">
                 {% elseif page.top2 and page.top3 %}
-                  <div class="col-lg-4 col-md-4">
+                  <div class="col-lg-4 col-md-4 top-wrapper">
                 {% elseif page.top1 or page.top2 or page.top3 %}
-                  <div class="col-lg-6">
+                  <div class="col-lg-6 col-md-6 top-wrapper">
                 {% else  %}
                   <div class="col-lg-12">
               {% endif %}
                 <div class="top4">{{ page.top4 }}</div>
               </div>
             {% endif %}
-        </div>
-      </section>
-      
+          </div>    
+     {% endif %}
     {% endif %}
-  {% endif %}
+  </section>
 
       <!-- news start -->
   {% if is_front %}
@@ -291,9 +295,7 @@
         {% if not is_front %}
           {% block content %}
             <a id="main-content"></a>
-            <div class="container">
               {{ page.content }}
-            </div>
           {% endblock %}
         {% endif %}
         </section>

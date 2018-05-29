@@ -6,8 +6,7 @@
   }
 
 .main-container{
-  padding-top: 65px;
-  padding-bottom: 40px;
+  padding-top: 60px;
 }
 
 .nav li > a:hover{
@@ -51,4 +50,47 @@ border-bottom: 1px solid #c4c3cc;
 .footer-bottom nav li a{
   display: block;
   padding: 4px 20px 4px 0;
+}
+
+
+/* search page */
+
+.search-row{
+padding-bottom: 9px;
+font-size: 2rem;
+}
+
+/* search page */
+
+
+/* search box */
+
+
+@media (min-width: 767px) {
+  #edit-submit-solr-search-content{
+    display: none;
+  }
+
+  #views-exposed-form-solr-search-content-page-1{
+    margin-top: 7%;
+    margin-right: 5%;
+  }
+
+}
+
+.input-group-addon{
+  display: none;
+}
+
+/* search-box */
+
+
+
+/* top head region */
+.top_head{
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 20px;
+    padding-top: 20px;
 }
