@@ -681,7 +681,8 @@ left: 100%;
   /* top box front page */
 
   .top-wrapper{
-    padding-right: 0;
+    padding-right: 4px;
+    padding-left: 4px;
   }
   .top_box_bg{
     background-color: lightgray;
