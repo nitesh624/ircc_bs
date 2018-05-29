@@ -56,8 +56,12 @@ border-bottom: 1px solid #c4c3cc;
 /* search page */
 
 .search-row{
-padding-bottom: 9px;
-font-size: 2rem;
+  padding-bottom: 5px;
+  font-size: 1.8rem;
+}
+
+.search-item{
+  margin-left: 30px;
 }
 
 /* search page */
