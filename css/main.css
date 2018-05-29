@@ -712,6 +712,8 @@ left: 100%;
     text-decoration: none;
     color: #fff;
     padding-left: 10px;
+    display: block;
+    text-transform: uppercase;
   }
   .box-container:hover .link-overlay {
     bottom: 0;
