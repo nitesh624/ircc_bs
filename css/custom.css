@@ -108,6 +108,7 @@ h2.page-title{
 
 .navbar-search .search-icons {
   position: relative;
+  right: 10px;
 }
 
 @media(max-width:767px){
@@ -204,6 +205,12 @@ h2.page-title{
   display: none;
 }
 
+a.open-form{
+  font-size: 20px;
+}
+a.close-form{
+  font-size: 20px;
+}
 /* search-box */
 
 
