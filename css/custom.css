@@ -108,7 +108,7 @@ h2.page-title{
 
 .navbar-search .search-icons {
   position: relative;
-  right: 10px;
+  right: 30px;
 }
 
 @media(max-width:767px){
