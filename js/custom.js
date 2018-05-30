@@ -53,5 +53,32 @@
   	    }
 	  }
 
+	  (function() {
+
+		$(".open-form").click(function(){
+			$(".open-form").hide();
+			$(".close-form").css("display","block");
+			$(".search-block-form").show();
+			$(".search-block-form input").focus();
+			return false;
+		});
+		$(".close-form").click(function(){
+			$(".close-form").hide();
+			$(".open-form").css("display","block");
+			$(".search-block-form").hide();
+			return false;
+		});
+
+	})();
+
+
+	// if(screen.width >= 768) {
+	// 	$('.navbar').addClass('navbar-fixed-top');
+	// 	$('body').css("margin-top", 0);
+	// } else {
+	// 	$('.navbar').removeClass('navbar-fixed-top navbar-fixed').addClass("navbar-static-top");
+	// 	$('body').css({"padding-top": 0, "margin-top": 0});
+	// }
+
 }(jQuery);
 

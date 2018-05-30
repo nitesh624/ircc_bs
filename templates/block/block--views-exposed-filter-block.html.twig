@@ -27,7 +27,20 @@
  * @ingroup themeable
  */
 #}
-<div{{ attributes }}>
+
+
+<div class="navbar-search">
+	<div class="search-icons">
+    <a class="open-form"><i class="fa fa-search"></i></a>
+    <a class="close-form"><i class="fa fa-times"></i></a>
+	</div>
+  <div class="search-block-form" id="search">
+    {{ content }}
+  </div>
+</div>
+
+
+{# <div{{ attributes }}>
   {{ title_prefix }}
   {% if label %}
     <h2{{ title_attributes }}>{{ label }}</h2>
@@ -36,4 +49,4 @@
   {% block content %}
     {{ content }}
   {% endblock %}
-</div>
+</div> #}
