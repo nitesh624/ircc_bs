@@ -45,7 +45,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
   }
 
-  section#block-ircc-bs-facultyname1.block-title, section#block-ircc-bs-departmentfacilities.block-title {
+  section#block-ircc-bs-facultyname1 .block-title, section#block-ircc-bs-departmentfacilities .block-title {
     padding-left: 13px;
     border-bottom: 3px #e58c08 solid;
   }
