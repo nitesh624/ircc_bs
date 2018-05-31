@@ -38,7 +38,10 @@
 
 
 /* facets */
+section#block-ircc-bs-facultyname1{
 
+  margin-bottom: 30px;
+}
   section#block-ircc-bs-facultyname1, section#block-ircc-bs-departmentfacilities  {
     border: 1px solid #4fcec8;
     border-radius: 8px;
@@ -50,12 +53,12 @@
     border-bottom: 3px #e58c08 solid;
   }
 
- section#block-ircc-bs-facultyname1 a.facets-soft-limit-link{
-  text-align: center; 
+ section#block-ircc-bs-facultyname1 a.facets-soft-limit-link, section#block-ircc-bs-departmentfacilities a.facets-soft-limit-link{
+    text-align: center; 
     background: #b87338;
     color: #FFF;
-    padding: 8px 30px;
-    margin-left: 50px;
+    padding: 5px 25px;
+    margin-left: 60px;
     border-radius: 10px;
 }
 
