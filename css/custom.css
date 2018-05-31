@@ -70,12 +70,9 @@ section#block-ircc-bs-facultyname1{
 
 .facets-widget-checkbox .facet-item label {
   padding-left: 5px;
+  display: inline;
+}
 
-}
-.filter-type h2 {
-  padding-left: 13px;
-  font-size: 22px;
-}
 
 .block-facet--checkbox{
   padding-bottom: 5px;
@@ -84,7 +81,8 @@ section#block-ircc-bs-facultyname1{
 
 .facet-item__value{
   font-size: 13px;
-    font-weight: normal;
+  font-weight: normal;
+  line-height: 20px;
 }
 
 .facet-item__count{
