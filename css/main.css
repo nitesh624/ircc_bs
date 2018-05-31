@@ -8,13 +8,7 @@
 6. Site Page & Section
 7. Footer
 */
-/*-------------------------------------------------------*/
-/* General
-/*-------------------------------------------------------*/
-/* font */
-/* button color */
-/* button */
-/* border and box-shadow */
+
 
 html {
   height: 100% }
@@ -685,9 +679,6 @@ left: 100%;
   div.rh-all-pg-img img{
     width: 100%;
   }
-
-
-
 
   /* front page sections end */
 

@@ -37,6 +37,44 @@
 }
 
 
+/* facets */
+
+.facets-widget-checkbox ul{
+  list-style-type: none;
+  padding-left: 12px;
+}
+
+.facets-widget-checkbox .facet-item label {
+  padding-left: 5px;
+
+}
+.filter-type h2 {
+  padding-left: 13px;
+  font-size: 22px;
+}
+
+.block-facet--checkbox{
+  border-bottom: solid #383636 1px;
+  padding-bottom: 5px;
+  line-height: 15px;
+}
+
+.facet-item__value{
+  font-size: 14px;
+}
+
+.filter-type input[type="checkbox"] {
+    width: 13px;
+    height: 13px;
+  }
+
+.facet-item__count{
+  font-size: 14px;
+}
+
+
+/* facets */
+
 
 /*node page*/
 .title-bottom-border{
@@ -54,7 +92,7 @@ h2.page-title{
 /*nodepage end*/
 
 
-
+/* footer */
 .footer-bottom nav li{
   display: inline-block;
 }
@@ -63,7 +101,7 @@ h2.page-title{
   display: block;
   padding: 4px 20px 4px 0;
 }
-
+/* footer */
 
 /* search page */
 
@@ -81,7 +119,6 @@ h2.page-title{
 
 /* search box */
 
-
 @media (max-width: 767px) {
   #edit-submit-solr-search-content{
     display:inline;
@@ -94,7 +131,6 @@ h2.page-title{
   right: 0;
   width: 45em;
 }
-
 
 @media (max-width: 767px) {
  .navbar-search{
@@ -216,6 +252,7 @@ a.close-form{
 
 
 /* top head region */
+
 .top_head{
   color: #fff;
   font-size: 2rem;
@@ -223,3 +260,5 @@ a.close-form{
   padding-bottom: 20px;
     padding-top: 20px;
 }
+
+/* top head region */
