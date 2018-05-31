@@ -39,9 +39,30 @@
 
 /* facets */
 
+  section#block-ircc-bs-facultyname1, section#block-ircc-bs-departmentfacilities  {
+    border: 1px solid #4fcec8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  }
+
+  section#block-ircc-bs-facultyname1, section#block-ircc-bs-departmentfacilities.block-title{
+    padding-left: 13px;
+    border-bottom: 3px #e58c08 solid;
+  }
+
+ section#block-ircc-bs-facultyname1 a.facets-soft-limit-link{
+  text-align: center; 
+    background: #b87338;
+    color: #FFF;
+    padding: 8px 30px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+
 .facets-widget-checkbox ul{
   list-style-type: none;
-  padding-left: 12px;
+  padding-left: 10px;
 }
 
 .facets-widget-checkbox .facet-item label {
@@ -54,13 +75,17 @@
 }
 
 .block-facet--checkbox{
-  border-bottom: solid #383636 1px;
   padding-bottom: 5px;
   line-height: 15px;
 }
 
 .facet-item__value{
-  font-size: 14px;
+  font-size: 13px;
+    font-weight: normal;
+}
+
+.facet-item__count{
+  font-size: 13px;
 }
 
 .filter-type input[type="checkbox"] {
@@ -68,9 +93,7 @@
     height: 13px;
   }
 
-.facet-item__count{
-  font-size: 14px;
-}
+
 
 
 /* facets */
