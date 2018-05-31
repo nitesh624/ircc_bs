@@ -42,18 +42,18 @@ section#block-ircc-bs-facultyname1{
 
   margin-bottom: 30px;
 }
-  section#block-ircc-bs-facultyname1, section#block-ircc-bs-departmentfacilities  {
+  section.block-facets {
     border: 1px solid #4fcec8;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
   }
 
-  section#block-ircc-bs-facultyname1 .block-title, section#block-ircc-bs-departmentfacilities .block-title {
+  section.block-facets .block-title {
     padding-left: 13px;
     border-bottom: 3px #e58c08 solid;
   }
 
- section#block-ircc-bs-facultyname1 a.facets-soft-limit-link, section#block-ircc-bs-departmentfacilities a.facets-soft-limit-link{
+ section.block-facets a.facets-soft-limit-link{
     text-align: center; 
     background: #b87338;
     color: #FFF;
@@ -61,6 +61,8 @@ section#block-ircc-bs-facultyname1{
     margin-left: 60px;
     border-radius: 10px;
 }
+
+
 
 
 .facets-widget-checkbox ul{

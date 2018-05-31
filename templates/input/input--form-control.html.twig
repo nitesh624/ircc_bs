@@ -32,7 +32,7 @@
 {% spaceless %}
   {% set classes = ['form-control',] %}
   {% block input %}
-     <input{{ attributes.addClass(classes).setAttribute('placeholder','Enter search term...') }} />
+     <input{{ attributes.addClass(classes) }} />
       {{ children }}
   {% endblock %}
 {% endspaceless %}
