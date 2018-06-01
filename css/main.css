@@ -507,7 +507,7 @@ left: 100%;
   .navbar-nav {
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
-    padding-top: 20px;
+    /* padding-top: 20px; */
   }
 
   .form-control:focus {
@@ -669,7 +669,7 @@ left: 100%;
   padding-top: 10px;
   padding-left: 10px;
   padding-bottom: 10px;
-  font-size: 20px;
+  font-size: 16px;
 }
 .rh-body{
   padding-left: 10px;
@@ -692,7 +692,7 @@ left: 100%;
 
 .slick-list img{
     width: 100% !important;
-    max-height: 150px!important;
+    height: 200px!important;
   } 
 
   p.rh-page-cont-title{
