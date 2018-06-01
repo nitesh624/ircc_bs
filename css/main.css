@@ -950,7 +950,10 @@ left: 100%;
   padding: 4px 20px 4px 0;
 }
 
-.footer-bottom nav li > a:hover{
+ .footer1 .nav > li > a:hover, .footer1 .nav > li > a:focus {
+  background: transparent;
+}
+.footer-bottom nav li > a:hover, .footer-bottom nav li > a:focus{
   background: transparent;
   color: #e78710;
 }
