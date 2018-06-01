@@ -10,9 +10,8 @@
   padding-top: 40px;
 }
 
-.nav li > a:hover{
-  background: transparent;
-}
+
+
 
 .more-link a{
   font-size: 20px;
@@ -127,6 +126,13 @@ h2.page-title{
 .footer-bottom nav li a{
   display: block;
   padding: 4px 20px 4px 0;
+}
+
+.footer-bottom nav li > a:hover{
+  background: transparent;
+}
+.footer-bottom nav li > a:active{
+  background: transparent;
 }
 /* footer */
 
