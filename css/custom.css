@@ -118,25 +118,6 @@ h2.page-title{
 /*nodepage end*/
 
 
-/* footer */
-.footer-bottom nav li{
-  display: inline-block;
-}
-
-.footer-bottom nav li a{
-  display: block;
-  padding: 4px 20px 4px 0;
-}
-
-.footer-bottom nav li > a:hover{
-  background: transparent;
-  color: #e78710;
-}
-.footer-bottom nav li > a:active{
-  background: transparent;
-}
-/* footer */
-
 /* search page */
 
 .search-row{
