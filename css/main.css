@@ -959,10 +959,11 @@ left: 100%;
 
 }
 
-
-.footer-bottom ul.contextual-links li{
+.footer-bottom .contextual-region .contextual .contextual-links li{
   display: inline-block;
 }
+
+
 /************************************************************
 *************************Footer******************************
 *************************************************************/
