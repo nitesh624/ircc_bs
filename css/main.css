@@ -590,6 +590,16 @@ left: 100%;
     background-size: cover;
     }
 
+  #research-title{
+    font-family: 'Sanchez', serif;
+    font-size: 4rem;
+    color: #080808;
+    text-align: center;
+    padding-bottom: 10px;
+    text-shadow: 1px 2px 6px grey;
+  }
+
+
   #research-wrap .more-link a{
     background: #2f6484;
     color: #FFF;
@@ -684,7 +694,7 @@ left: 100%;
 
 .slick-list img{
     width: 100% !important;
-    max-height: 450px!important;
+    max-height: 150px!important;
   } 
 
   p.rh-page-cont-title{
@@ -772,14 +782,16 @@ left: 100%;
     transition: all 0.5s;
   }
   .box-summary{
-    background-color: rgba(0,0,0,0.7);
+      background-color: rgba(0,0,0,0.3);
       position: absolute;
-      bottom: 40%;
+      bottom: 0%;
       width: 100%;
       text-align: center;
-      font-size: 1.3em;
+      font-size: 3em;
+      font-weight: bold;
+      text-shadow: 4px 3px 3px black;
       color: white;
-      padding: 15px;
+      padding: 65px;
       -webkit-transition: all 0.5s;
       -moz-transition: all 0.5s;
       -o-transition: all 0.5s;
