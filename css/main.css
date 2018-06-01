@@ -582,7 +582,7 @@ left: 100%;
 
   #research-wrap {
     padding-top: 0px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     width: 100%;
     background: url(../img/event_bg.jpg) fixed;
     background-position: center;
@@ -683,12 +683,10 @@ left: 100%;
 
 .slide__content,
 .grid__content {
-  width: 96%;
+  width: 100%;
 }
 .slick__arrow{
-	left: -21px!important;
 	top: 34%!important;
-	width: 101%!important;
 	z-index: 2;
 }
 
