@@ -674,8 +674,10 @@ left: 100%;
 .rh-body{
   padding-left: 10px;
   padding-right: 10px;
-  text-align: justify;
-  word-wrap: break-word;
+  font-family: 'Source Sans Pro','Lucida Sans Unicode','Lucida Grande',sans-serif;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+  margin-bottom: 15px;
 }
 .slick-dots{
   width: 100%;
@@ -941,13 +943,18 @@ left: 100%;
 }
 
 
-.footer-bottom nav li{
+.footer-bottom ul.menu li:first-child {
+  border-left: none !important;
+}
+
+.footer-bottom ul.menu li{
   display: inline-block;
+  border-left: 1px dotted #E5E5E5;
 }
 
 .footer-bottom nav li a{
-  display: block;
-  padding: 4px 20px 4px 0;
+  display: inline;
+  padding: 5px 5px;
 }
 
  .footer1 .nav > li > a:hover, .footer1 .nav > li > a:focus {
