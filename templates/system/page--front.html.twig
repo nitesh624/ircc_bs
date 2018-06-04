@@ -120,15 +120,17 @@
 
           {% if page.top1 or page.top2 or page.top3 or page.top4 or page.top_head %}
             <section id="main-wrap">
-                <div class="container-fluid">
+              <div class="container-fluid">
+                {% if page.top_head %}
                   <div class="row clearfix">
-
-                    {% if page.top_head %}
-                      <div class="col-md-12 top-head">
-                        {{ page.top_head }}
-                      </div>
-                    {% endif %}
-
+                    <div class="col-md-12 top-head">
+                      {{ page.top_head }}
+                    </div>
+                  </div>
+                {% endif %}
+                
+                {% if page.top1 or page.top2 or page.top3 or page.top4 %}
+                  <div class="row clearfix">
                     {% if page.top1 %}
                       {% if page.top2 and page.top3 and page.top4 %}
                         <div class="col-lg-3 col-md-3 col-sm-6 top-wrapper">
@@ -201,7 +203,8 @@
                         </div>
                     {% endif %}
                   </div>
-                </div>
+                {% endif %}
+              </div> {# container-fluid #}
             </section>
           {% endif %}
 
