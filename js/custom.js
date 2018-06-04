@@ -54,7 +54,7 @@
 	  }
 
 	  (function() {
-		$("#views-exposed-form-solr-search-content-page-1 input").attr("placeholder", "enter search term...");
+		$("#views-exposed-form-solr-search-content-page-1 input").attr("placeholder", "Enter search term...");
 
 		$(".open-form").click(function(){
 			$(".open-form").hide();
