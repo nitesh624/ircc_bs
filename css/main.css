@@ -828,6 +828,30 @@ left: 100%;
 }
 
 
+.footer1 h2.block-title{
+  color: #898989;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1;
+	position: relative;
+	text-transform: uppercase;
+	font-family: 'Fjalla One', sans-serif;
+	margin-top: 20px;
+	margin-right: 0;
+	margin-bottom: 20px;
+	margin-left: 0;
+	padding-left: 28px;
+}
+
+.footer1 h2.block-title::before{
+  background-color: #ea5644;
+  content: "";
+  height: 22px;
+  left: 0px;
+  position: absolute;
+  top: -2px;
+  width: 5px;
+}
 
 .title-widget {
 	color: #898989;
