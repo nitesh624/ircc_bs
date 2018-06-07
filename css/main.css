@@ -699,7 +699,7 @@ left: 100%;
 	z-index: 2;
 }
 
-.slick-list img{
+.research-highlights img{
     width: 100% !important;
     height: 200px!important;
   } 
@@ -711,7 +711,14 @@ left: 100%;
 
   .slick-arrow{
     background: #ffffff;
+    padding-top: 3px;
   }
+
+  .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+    color: transparent;
+    outline: none;
+    background: #ffffff;
+}
   
 @media screen and (max-width: 600px ){
   .slick-arrow::before{
