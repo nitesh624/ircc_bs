@@ -669,6 +669,7 @@ left: 100%;
   background-color: #ecf1f1;
   font-family: 'Source Sans Pro','Lucida Sans Unicode','Lucida Grande',sans-serif;
   font-size: 14px;
+  min-height: 450px;
 
 }
 .rh-title{
