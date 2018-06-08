@@ -61,14 +61,12 @@
 			$(".close-form").css("display","block");
 			$(".search-block-form").show();
 			$(".search-block-form input").focus();
-			$("a.logo2").hide();
 			return false;
 		});
 		$(".close-form").click(function(){
 			$(".close-form").hide();
 			$(".open-form").css("display","block");
 			$(".search-block-form").hide();
-			$("a.logo2").show();
 			return false;
 		});
 
