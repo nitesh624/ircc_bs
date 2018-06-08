@@ -177,8 +177,14 @@ h2.page-title{
 /* search page */
 
 .search-row{
-  padding-bottom: 5px;
-  font-size: 1.8rem;
+  padding-bottom: 3px;
+  font-size: 1.6rem;
+}
+
+@media screen and (max-width: 767px){
+  .search-row{
+      font-size: 1rem;
+  }
 }
 
 .search-item{
