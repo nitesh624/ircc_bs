@@ -694,8 +694,8 @@ left: 100%;
 .grid__content {
   width: 100%;
 }
-.slick__arrow{
-	top: 34%!important;
+.region-research-highlights .slick__arrow{
+	top: 40%!important;
 	z-index: 2;
 }
 

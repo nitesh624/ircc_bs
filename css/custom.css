@@ -153,7 +153,24 @@ h2.page-title{
 
 .region-content .slick{
   background: #f7f6f6;
+  border: 1px solid #b4c4ca;
 }
+.region-content .slick img { 
+    width: 50%;
+    height:400px;
+}
+
+@media screen and (max-width: 767px){
+.region-content .slick img{
+  height:260px;
+}
+}
+
+@media screen and (max-width: 500px){
+  .region-content .slick img{
+    height:200px;
+  }
+  }
 /*nodepage end*/
 
 
