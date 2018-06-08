@@ -148,6 +148,12 @@ h2.page-title{
   padding-top: 90px;
 }
 }
+
+
+
+.region-content .slick{
+  background: #f7f6f6;
+}
 /*nodepage end*/
 
 
@@ -318,8 +324,7 @@ width: 100%!important;
 height: 200px!important;
 }
 
-.views-bootstrap-research-highlights-page-1 img{
-  width: 100%!important;
-height: 200px!important;
-}
+.glimpse-grid-title a:hover{
+  text-decoration: none;
+} 
 /* research glimpse page grid */
