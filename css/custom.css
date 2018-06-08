@@ -310,3 +310,12 @@ a.close-form{
 }
 
 /* top head region */
+
+
+/* research glimpse page grid */
+.views-field-field-image-glimpse img{
+width: 100%!important;
+height: 200px!important;
+}
+
+/* research glimpse page grid */
