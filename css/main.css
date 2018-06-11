@@ -594,6 +594,10 @@ left: 100%;
     background-size: cover;
     }
 
+
+
+
+
   #research-title{
     font-family: 'Sanchez', serif;
     font-size: 4rem;
@@ -682,6 +686,13 @@ left: 100%;
   padding-bottom: 10px;
   font-size: 16px;
 }
+
+.rh-title a{
+  color: #de4d00;
+  font-weight: bold;
+}
+
+
 .rh-body{
   padding-left: 10px;
   padding-right: 10px;
@@ -979,7 +990,7 @@ left: 100%;
 
 
 .footer-bottom {
-    background-color: #15224f;
+    background-color: #006699;
     min-height: 30px;
     width: 100%;
 }
