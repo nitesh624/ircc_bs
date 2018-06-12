@@ -13,7 +13,7 @@
   transform: rotate(270deg);
   position: fixed;
   bottom: 50px;
-  right: 0;
+  right: 10px;
   background-color: #7a7d91;
   color: #ffffff;
   text-align: center;
@@ -44,6 +44,7 @@
 
 .main-container{
   padding-top: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
 .more-link a{
@@ -83,12 +84,12 @@ section#block-ircc-bs-facultyname1{
 
   section.block-facets .block-title {
     padding-left: 13px;
-    border-bottom: 3px #e58c08 solid;
+    border-bottom: 3px #ff5809e0 solid;
   }
 
  section.block-facets a.facets-soft-limit-link{
     text-align: center; 
-    background: #b87338;
+    background: #ff5809e0;
     color: #FFF;
     padding: 5px 25px;
     margin-left: 60px;
@@ -136,6 +137,14 @@ section#block-ircc-bs-facultyname1{
 
 
 /*node page*/
+
+.field-label-inline{
+  display:inline;
+}
+
+.field-label-above{
+  display: block;
+}
 .title-bottom-border{
 border-bottom: 1px solid #c4c3cc;
 }
