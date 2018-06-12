@@ -160,9 +160,6 @@ h2.page-title{
   padding-top: 90px;
 }
 }
-
-
-
 .region-content .slick{
   background: #f7f6f6;
   border: 1px solid #b4c4ca;
@@ -183,6 +180,8 @@ h2.page-title{
     height:200px;
   }
   }
+
+  
 /*nodepage end*/
 
 
@@ -357,6 +356,19 @@ a.close-form{
 .views-field-field-image-glimpse img{
 width: 100%!important;
 height: 200px!important;
+transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+     -moz-transition: all .5s ease-in-out;
+     -o-transition: all .5s ease-in-out;
+}
+
+.views-field-field-image-glimpse img:hover{
+  transform:scale(1.03);
+  transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+     -moz-transition: all .5s ease-in-out;
+     -o-transition: all .5s ease-in-out;
+
 }
 
 .glimpse-grid-title a:hover{
