@@ -362,13 +362,14 @@ transition: all .5s ease-in-out;
      -o-transition: all .5s ease-in-out;
 }
 
-.views-field-field-image-glimpse img:hover{
-  transform:scale(1.03);
+@media screen and (min-width: 767px){
+  .views-field-field-image-glimpse img:hover{
+  transform:scale(1.05);
   transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
      -moz-transition: all .5s ease-in-out;
-     -o-transition: all .5s ease-in-out;
-
+     -o-transition: all .5s ease-in-out;  
+  }
 }
 
 .glimpse-grid-title a:hover{
