@@ -180,13 +180,17 @@ h2.page-title{
     height:200px;
   }
   }
-
-  
 /*nodepage end*/
+
+/* award page */
+#block-exposedformall-awardspage-1 a.bef-link-active{
+  color:#ff5708;
+}
+
+/* award page */
 
 
 /* search page */
-
 .search-row{
   padding-bottom: 3px;
   font-size: 1.6rem;
