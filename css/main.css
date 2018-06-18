@@ -20,7 +20,6 @@ html {
 body {
   position: initial;
   overflow-x: hidden;
-  min-height: 100%;
   font-family: "Open Sans", sans-serif;
   color: #000000;
   background-color: #ffffff;
@@ -670,7 +669,7 @@ left: 100%;
 
 
 .research-highlights{
-  background-color:#93c8c8;
+  background-color:#cef2f2;
   font-family: 'Source Sans Pro','Lucida Sans Unicode','Lucida Grande',sans-serif;
   font-size: 14px;
   min-height: 450px;

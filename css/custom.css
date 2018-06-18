@@ -187,6 +187,15 @@ h2.page-title{
   color:#ff5708;
 }
 
+.js-form-item-field-award-year-target-id .chosen-container-single .chosen-single{
+background: none;
+border :none;
+}
+
+.js-form-item-field-award-year-target-id .chosen-container-single .chosen-single div b{
+  background: none;
+}
+
 /* award page */
 
 
