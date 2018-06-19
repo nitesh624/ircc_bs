@@ -184,8 +184,28 @@ h2.page-title{
 
 /* award page */
 #block-exposedformall-awardspage-1 a.bef-link-active{
-  color:#ff5708;
+  color: #ffffff;
+  background: #fe6117c2;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
 }
+#block-exposedformall-awardspage-1 a{
+  transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+   -moz-transition: all .5s ease-in-out;
+   -o-transition: all .5s ease-in-out;
+}
+#block-exposedformall-awardspage-1 a:hover{
+    color: #111870;
+    text-decoration: underline;
+    font-size: 110%;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+     -moz-transition: all .5s ease-in-out;
+     -o-transition: all .5s ease-in-out;
+}
+
 
 .js-form-item-field-award-year-target-id .chosen-container-single{
   padding: 0px;
