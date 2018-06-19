@@ -201,12 +201,14 @@ h2.page-title{
 border :none;
 }
 
-/* .js-form-item-field-award-year-target-id .chosen-container-single .chosen-single div b{
-  background: none;
-} */
+.js-form-item-field-award-year-target-id{
+  margin-bottom: 15px;
+}
 
-.js-form-item-field-award-year-target-id .select-wrapper{
-  display: inherit;
+.js-form-item-field-award-year-target-id .control-label{
+  color: #0d0daa;
+  font-size: 16px;
+
 }
 .js-form-item-field-award-year-target-id .select-wrapper:after{
   display: none!important;
