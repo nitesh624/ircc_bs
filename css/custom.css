@@ -184,7 +184,7 @@ h2.page-title{
 
 /* award page */
 #block-exposedformall-awardspage-1 a.bef-link-active{
-  color: #ffffff;
+  color: #eeeeee;
   background: #fe6117c2;
   font-weight: bold;
   padding: 5px;
@@ -207,6 +207,17 @@ line-height: 30px;
   background: none;
 }
 
+.js-form-item-field-award-year-target-id .select-wrapper{
+  display: inherit;
+}
+
+section.block-views-exposed-filter-blockall-awards-page-1 {
+border: 1px solid #25138b;
+background-color: white;
+border-radius: 5px;
+padding: 11px;
+box-shadow: #4a6568 3px 6px;
+}
 /* award page */
 
 
