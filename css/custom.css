@@ -187,7 +187,7 @@ h2.page-title{
   color: #ffffff!important;
   background: #4a5c68d1;
   font-weight: bold;
-  padding: 5px;
+  padding: 4px;
   border-radius: 5px;
 }
 
@@ -227,7 +227,9 @@ section.block-views-exposed-filter-blockall-awards-page-1 {
 border: 1px solid #25138b;
 background-color: white;
 border-radius: 5px;
-padding: 11px;
+padding: 10px;
+margin-bottom: 20px;
+
 box-shadow: #4a6568 3px 6px;
 }
 
