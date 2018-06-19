@@ -194,22 +194,24 @@ h2.page-title{
 
 .js-form-item-field-award-year-target-id .chosen-container-single{
   padding: 0px;
+  height: 27px!important;
 }
 
 .js-form-item-field-award-year-target-id .chosen-container-single .chosen-single{
-background: none;
 border :none;
-box-shadow: none;
-line-height: 30px;
 }
 
-.js-form-item-field-award-year-target-id .chosen-container-single .chosen-single div b{
+/* .js-form-item-field-award-year-target-id .chosen-container-single .chosen-single div b{
   background: none;
-}
+} */
 
 .js-form-item-field-award-year-target-id .select-wrapper{
   display: inherit;
 }
+.js-form-item-field-award-year-target-id .select-wrapper:after{
+  display: none!important;
+}
+
 
 section.block-views-exposed-filter-blockall-awards-page-1 {
 border: 1px solid #25138b;
