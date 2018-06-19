@@ -185,12 +185,15 @@ h2.page-title{
 /* award page */
 #block-exposedformall-awardspage-1 a.bef-link-active{
   color: #eeeeee;
-  background: #fe6117c2;
+  background: #4a5c68d1;
   font-weight: bold;
   padding: 5px;
   border-radius: 5px;
 }
 
+#block-exposedformall-awardspage-1 .js-form-item-term-node-tid-depth a{
+  color: #3b4145;
+}
 
 .js-form-item-field-award-year-target-id .chosen-container-single{
   padding: 0px;
@@ -202,14 +205,19 @@ border :none;
 }
 
 .js-form-item-field-award-year-target-id{
-  margin-bottom: 15px;
+  margin-bottom: 15px!important;
 }
 
 .js-form-item-field-award-year-target-id .control-label{
-  color: #0d0daa;
+  color: #4a6568;
   font-size: 16px;
-
 }
+
+.js-form-item-term-node-tid-depth .control-label{
+  color: #4a6568;
+  font-size: 16px;
+}
+
 .js-form-item-field-award-year-target-id .select-wrapper:after{
   display: none!important;
 }
@@ -222,6 +230,7 @@ border-radius: 5px;
 padding: 11px;
 box-shadow: #4a6568 3px 6px;
 }
+
 /* award page */
 
 
