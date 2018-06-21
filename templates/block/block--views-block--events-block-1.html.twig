@@ -27,10 +27,10 @@
  * @ingroup themeable
  */
 #}
-<div{{ attributes }}>
+<div{{ attributes.addClass('section-header') }}>
   {{ title_prefix }}
   {% if label %}
-    <div id="events-title">{{ label }}</div>
+    <h3 class="events-head">{{ label }}</h3>
 
   {# <h2{{ title_attributes }}>{{ label }}</h2> #}
 
