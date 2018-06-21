@@ -955,7 +955,6 @@ color: #ffffff;
 }
 
 #news-wrap{
-padding-top: 40px;
 padding-bottom: 40px;
 }
 
@@ -968,7 +967,7 @@ padding-bottom: 40px;
   font-family: 'Sanchez', serif;
   color: #000000;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
   padding-top: 10px;
   padding-bottom: 15px;
 }
