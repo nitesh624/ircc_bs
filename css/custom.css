@@ -48,7 +48,7 @@
 }
 
 .more-link{
-  
+  float: right;
 }
 .more-link a{
   font-size: 16px;
