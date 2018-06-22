@@ -990,7 +990,7 @@ content: "";
 
 .news-title{
 color: #000000;
-padding-bottom: 10px;
+padding-bottom: 5px;
 text-align: center;
 }
 
@@ -1002,7 +1002,7 @@ text-align: center;
 }
 
 .news-info{
-  text-align: center;
+  text-align: justify;
  background: -webkit-linear-gradient(#000000, #eeeeee);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
