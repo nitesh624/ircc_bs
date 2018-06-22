@@ -991,16 +991,19 @@ content: "";
 .news-title{
 color: #000000;
 padding-bottom: 10px;
+text-align: center;
 }
 
 .news-title a{
 color: #000000;
 font-size: 20px;
 font-weight: bold;
+text-align: center;
 }
 
 .news-info{
- background: -webkit-linear-gradient(#333, #eee);
+  text-align: center;
+ background: -webkit-linear-gradient(#000000, #eeeeee);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
