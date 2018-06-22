@@ -885,6 +885,7 @@ text-decoration: none;
 
 #events-wrap{
 background: #062d3e;
+padding-bottom: 40px;
 }
 
 .events-head{
@@ -1045,7 +1046,9 @@ transition: all 0.5s;
 @import url(http://fonts.googleapis.com/css?family=Fjalla+One);
 @import url(http://fonts.googleapis.com/css?family=Gudea);
 .footer1 {
-    background:#e0edef;;
+    /* background:#e0edef; */
+  background: #062d3e;
+  color: #b2bbc0;
 	padding-top: 40px;
 	padding-right: 0;
 	padding-bottom: 20px;
@@ -1057,7 +1060,7 @@ transition: all 0.5s;
 
 
 .footer1 h2.block-title{
-  color: #898989;
+  color: #ffffff;
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 1;
@@ -1082,7 +1085,8 @@ transition: all 0.5s;
 }
 
 .title-widget {
-	color: #898989;
+  /* color: #898989; */
+  color: #ffffff;
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 1;
@@ -1120,13 +1124,15 @@ transition: all 0.5s;
     line-height: 20px;
 	position: relative;
     text-transform: uppercase;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     margin-bottom: 0;
     padding-bottom: 0;
 	width:95%;
 }
 .widget_nav_menu li a{
   padding: 6px 0px;
+  color: #b2bbc0;
 }
 
 .title-median {
@@ -1178,7 +1184,8 @@ transition: all 0.5s;
 
 
 .footer-bottom {
-    background-color: #006699;
+    /* background-color: #006699; */
+    background-color: #1a9239;
     min-height: 30px;
     width: 100%;
 }
@@ -1219,7 +1226,7 @@ transition: all 0.5s;
 }
 .footer-bottom nav li > a:hover, .footer-bottom nav li > a:focus{
   background: transparent;
-  color: #e78710;
+  /* color: #e78710; */
 }
 .footer-bottom nav li > a:active{
   background: transparent;
