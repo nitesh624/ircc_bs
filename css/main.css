@@ -1013,11 +1013,11 @@ text-align: center;
 }
 
 .news-read-more a{
-font-size: 16px;
+font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
   color: #2d9f2f;
-  padding: 5px;
+  padding: 6px;
   border: 2px solid #2d9f2f;
   border-radius: 7px;
   -webkit-transition: all 0.5s;
