@@ -72,7 +72,23 @@
   transition: all 0.5s;
 }
 
+#research-wrap .more-link a{
+  background: #2f6484;
+  color: #FFF;
+}
 
+#research-wrap .more-link a:hover{
+  background: #009fff;
+}
+
+#events-wrap .more-link a{
+  border: 1px solid #fefefe;
+  color: #fefefe;
+}
+
+#events-wrap .more-link a:hover{
+  color: #ffffff;
+}
 /* facets */
 section#block-ircc-bs-facultyname1{
 
