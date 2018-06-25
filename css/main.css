@@ -1036,7 +1036,10 @@ text-decoration: none;
 transition: all 0.5s;
 }
 
-/*events and news section*/
+.view-ircc-news .view-content{
+  padding-bottom: 15px;
+}
+ /*events and news section*/
 
 
 /************************************************************
