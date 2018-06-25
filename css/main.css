@@ -528,6 +528,14 @@ left: 100%;
     background: #262628;
   }
 
+  .navbar-toggle:hover{
+    background: #333434!important;
+    cursor: pointer;
+  }
+
+  .navbar-toggle:focus{
+    background: #333434!important;
+  }
   .navbar-nav {
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
