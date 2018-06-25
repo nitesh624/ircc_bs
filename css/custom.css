@@ -164,11 +164,23 @@ section#block-ircc-bs-facultyname1{
 .title-bottom-border{
 border-bottom: 1px solid #c4c3cc;
 }
+
 h2.page-title{
   color:#5d5454;
   font-family:initial;
   text-transform: capitalize;
 }
+  h2.page-title:before {
+    content: "";
+    display: block;
+    background-color: #6c8f6c;
+    height: 43px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 5px;
+}
+
 @media screen and (max-width: 700px ){
 h2.page-title{
   font-size: 1.5rem;
