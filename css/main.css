@@ -659,13 +659,15 @@ left: 100%;
   transition: .5s ease;
 }
 .link-overlay a{
-  color: #fff;
+  color:#cee1eb;
   padding-left: 10px;
+  padding-top: 5px;
   display: block;
   text-transform: uppercase;
+  font-weight: bold;
 }
 .link-overlay a:hover{
-color: #e78710;
+color: #ffffff;
 text-decoration: none;
 }
 .box-container:hover .link-overlay {
@@ -1163,8 +1165,7 @@ transition: all 0.5s;
 }
 
 .widget_nav_menu li a:hover {
-  padding: 6px 0px;
-  color: #ffffff;
+  color:#ffffff;
 }
 .title-median {
     color: #636363;
@@ -1251,6 +1252,11 @@ transition: all 0.5s;
   display: inline;
   padding: 5px 5px;
 }
+
+.footer-bottom nav li a:hover{
+  color: #a0ebea;
+}
+
 
  .footer1 .nav > li > a:hover, .footer1 .nav > li > a:focus {
   background: transparent;
