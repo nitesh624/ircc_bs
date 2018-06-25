@@ -3,9 +3,12 @@ global-styling:
     theme:
       css/custom.css: {}
       css/main.css: {}
+      css/animate.css: {}
   js:
     js/custom.js: {}
     js/SmoothScroll.min.js: {}
+    js/wow.js: {}
+    js/wow_custom.js: {}
   dependencies:
     - core/jquery
 
@@ -25,7 +28,6 @@ additional-library:
   css:
     theme:
       includes/bootstrap-dropdownhover.min.css: {}
-      includes/animate.css: {}
   js:
     includes/bootstrap-dropdownhover.min.js: {}
   dependencies:
