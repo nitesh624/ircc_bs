@@ -73,7 +73,7 @@
 	})();
 
 
-
+	
 	/*Scroll to top when arrow up clicked BEGIN*/
 $(window).scroll(function() {
     var height = $(window).scrollTop();
@@ -101,6 +101,8 @@ $(document).ready(function() {
 	// 	$('.navbar').removeClass('navbar-fixed-top navbar-fixed').addClass("navbar-static-top");
 	// 	$('body').css({"padding-top": 0, "margin-top": 0});
 	// }
+
+	
 
 }(jQuery);
 
