@@ -327,8 +327,8 @@ button:focus {
 
   .navbar-toggle{
     margin-top: 10px;
-    margin-right: 35px;
     padding: 6px 10px;
+    color:#ffffff;
   }
   .navbar-white{
     box-shadow: none;
@@ -487,6 +487,17 @@ left: 100%;
     line-height: 25px;
     color: #006699!important;
     font-family: 'Oswald', 'Lucida Sans Unicode','Lucida Grande',sans-serif;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+  transition: all 0.5s;
+  }
+  a.navbar-brand:hover{
+    color: #666!important;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+  transition: all 0.5s;
   }
 @media screen and (max-width: 1200px){
   .navbar-brand{
@@ -514,7 +525,7 @@ left: 100%;
     font-family: 'Oswald', 'Lucida Sans Unicode','Lucida Grande',sans-serif;
   }
   .navbar-toggle {
-    background: #cbcbd6;
+    background: #262628;
   }
 
   .navbar-nav {
