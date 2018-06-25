@@ -30,12 +30,14 @@
 <div{{ attributes }}>
   {{ title_prefix }}
   {% if label %}
-  <div id="research-title">{{ label }}</div>
+  <h3 class="research-head wow fadeIn delay-06s">{{ label }}</div>
 
 {# <h2{{ title_attributes }}>{{ label }}</h2> #}
   {% endif %}
   {{ title_suffix }}
   {% block content %}
+  <div class="wow fadeInDown delay-05s">
     {{ content }}
+  </div>
   {% endblock %}
 </div>
