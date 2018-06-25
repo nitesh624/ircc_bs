@@ -1162,6 +1162,10 @@ transition: all 0.5s;
   color: #b2bbc0;
 }
 
+.widget_nav_menu li a:hover {
+  padding: 6px 0px;
+  color: #ffffff;
+}
 .title-median {
     color: #636363;
     font-size: 20px;
@@ -1264,7 +1268,32 @@ transition: all 0.5s;
   display: inline-block;
 }
 
+ul.social-media-links--platforms li a{
+  color:#fefefe;
+}
 
+
+ul.social-media-links--platforms li a:hover{
+  color:#a0ebea;
+  
+}
+ul.social-media-links--platforms li{
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+ transition: all 0.5s;
+}
+ul.social-media-links--platforms li:hover{
+  -webkit-transform:scale(1.2);
+  -moz-transform:scale(1.2);
+  -o-transform:scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition: all 0.5s;
+ -moz-transition: all 0.5s;
+ -o-transition: all 0.5s;
+transition: all 0.5s;
+
+}
 /************************************************************
 *************************Footer******************************
 *************************************************************/
