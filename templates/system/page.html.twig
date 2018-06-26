@@ -115,10 +115,6 @@
 {% block main %}
   
 
-    {% if page.highlighted %}
-            {{ page.highlighted }}
-    {% endif %}
-
 
        <div class="row clearfix">
           <div class="col-md-12">
@@ -250,6 +246,11 @@
 
 
  <div role="main" class="main-container {{ container }} js-quickedit-main-content">
+   
+    {% if page.highlighted %}
+            {{ page.highlighted }}
+    {% endif %}
+
       {# content top #}
      {% if page.content_top %}
       {% block content_top %}
