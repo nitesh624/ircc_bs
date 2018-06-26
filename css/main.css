@@ -1402,6 +1402,9 @@ transition: all 0.5s;
   .footer-bootom-nav a {
     font-size: 12px;
     }
+    .footer-bottom ul.menu li{
+      display: inline;
+    }
   }
 
 /* media queries */
