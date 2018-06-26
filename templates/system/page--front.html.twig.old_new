@@ -209,18 +209,20 @@
           {% endif %}
 
           <!-- Research Begin-->
-          <section id="research-wrap">
-              <div class="container-fluid">
-              <div class="row">
-                <div class="col-md-12">
-                  {% if page.research_highlights %}
-                    {{ page.research_highlights }}
-                  {% endif %}
+          {% if page.research_highlights %}
+            <section id="research-wrap">
+                <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-12">
+                  
+                      {{ page.research_highlights }}
+                    
+                  </div>
                 </div>
-              </div>
-              </div>
-          </section>
-          <!-- Research End-->
+                </div>
+            </section>
+          {% endif %}
+            <!-- Research End-->
      
      
       <!-- news start -->
@@ -247,7 +249,7 @@
     {# Highlighted #}
 
 
-    {% if page.highlighted or page.content_top or page.sidebar_first or page.sidebar_second or page.content %}
+    {% if page.sidebar_first or page.sidebar_second or page.content %}
       <div class ="{{ container }}">
 
         {# Sidebar First #}
@@ -306,13 +308,13 @@
         <div class="row wow fadeInDown delay-03s">
           {% if page.footer1 %}
             {% if page.footer2 and page.footer3 and page.footer4 %}
-              <div class="col-lg-3 col-md-3">
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
               {% elseif page.footer2 and page.footer3 %}
-                <div class="col-lg-4 col-md-4">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
               {% elseif page.footer2 and page.footer4 %}
-                <div class="col-lg-4 col-md-4">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
               {% elseif page.footer3 and page.footer4 %}
-                <div class="col-lg-4 col-md-4">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
               {% elseif page.footer2 or page.footer3 or page.footer4 %}
                 <div class="col-lg-6 col-md-6">
               {% else  %}
@@ -326,15 +328,15 @@
 
           {% if page.footer2 %}
             {% if page.footer1 and page.footer3 and page.footer4 %}
-              <div class="col-lg-3 col-md-3">
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
               {% elseif page.footer1 and page.footer3 %}
-                <div class="col-lg-4 col-md-4">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
               {% elseif page.footer1 and page.footer4 %}
-                <div class="col-lg-4 col-md-4">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
               {% elseif page.footer3 and page.footer4 %}
-                <div class="col-lg-4 col-md-4">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
               {% elseif page.footer1 or page.footer3 or page.footer4 %}
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-6">
               {% else  %}
                 <div class="col-lg-12">
             {% endif %}
@@ -346,15 +348,15 @@
 
           {% if page.footer3 %}
             {% if page.footer1 and page.footer2 and page.footer4 %}
-              <div class="col-lg-3 col-md-3">
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
               {% elseif page.footer1 and page.footer2 %}
-                <div class="col-lg-4 col-md-4">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
               {% elseif page.footer1 and page.footer4 %}
-                <div class="col-lg-4 col-md-4">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
               {% elseif page.footer2 and page.footer4 %}
-                <div class="col-lg-4 col-md-4">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
               {% elseif page.footer1 or page.footer2 or page.footer4 %}
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-6">
               {% else  %}
                 <div class="col-lg-12">
             {% endif %}
@@ -366,7 +368,7 @@
 
           {% if page.footer4 %}
             {% if page.footer1 and page.footer2 and page.footer3 %}
-              <div class="col-lg-3 col-md-3">
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
               {% elseif page.footer1 and page.footer2 %}
                 <div class="col-lg-4 col-md-4">
               {% elseif page.footer1 and page.footer3 %}
@@ -374,7 +376,7 @@
               {% elseif page.footer2 and page.footer3 %}
                 <div class="col-lg-4 col-md-4">
               {% elseif page.footer1 or page.footer2 or page.footer3 %}
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-6">
               {% else  %}
                 <div class="col-lg-12">
             {% endif %}
