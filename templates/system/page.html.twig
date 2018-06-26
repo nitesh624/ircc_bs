@@ -121,7 +121,7 @@
              {{ page.breadcrumb }}
           </div>
       </div>
-    {% if is_front %}
+   
           {% if page.top1 or page.top2 or page.top3 or page.top4 or page.top_head %}
               <div id="main-wrap">
                 <div class="container-fluid">
@@ -132,7 +132,8 @@
                       </div>
                     </div>
                   {% endif %}
-                  
+
+            {% if is_front %}              
                   {% if page.top1 or page.top2 or page.top3 or page.top4 %}
                     <div class="row clearfix">
                       {% if page.top1 %}
