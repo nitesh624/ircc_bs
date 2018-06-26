@@ -1166,17 +1166,21 @@ transition: all 0.5s;
     min-height: 30px;
     padding: 7px 0;
 }
-.design {
+.footer-bootom-nav {
     color: #fff;
-    line-height: 30px;
-    min-height: 30px;
-    padding: 7px 0;
+    padding: 6px 0; 
     text-align: right;
 }
-.design a {
+.footer-bootom-nav a {
     color: #fff;
+    font-size: 14px;
 }
-
+#block-ircc-bs-footer{
+  display: inline-block;
+}
+#block-ircc-bs-account-menu{
+  display: inline;
+}
 
 .footer-bottom ul.menu li:first-child {
   border-left: none !important;
@@ -1392,5 +1396,13 @@ transition: all 0.5s;
     .views-row-news, .views-row-events{
       margin-bottom: 40px;
     }
+
   }
+
+  @media screen and (max-width:767px){
+  .footer-bootom-nav a {
+    font-size: 12px;
+    }
+  }
+
 /* media queries */
