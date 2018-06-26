@@ -129,6 +129,9 @@
                     <div class="row clearfix">
                       <div class="col-md-12 top-head animated fadeInDown delay-03s">
                         {{ page.top_head }}
+                         {% if page.highlighted %}
+                             {{ page.highlighted }}
+                         {% endif %}
                       </div>
                     </div>
                   {% endif %}
@@ -247,16 +250,13 @@
 
  <div role="main" class="main-container {{ container }} js-quickedit-main-content">
    
-    {% if page.highlighted %}
-            {{ page.highlighted }}
-    {% endif %}
-
       {# content top #}
-     {% if page.content_top %}
+     {% if page.content_top and not is_front %}
       {% block content_top %}
           <div class="container">
             <div class="row clearfix">
               <div class="col-sm-12" role="heading">
+               {{ page.highlighted }}
                 {{ page.content_top }}
               </div>
             </div>
