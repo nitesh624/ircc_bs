@@ -121,8 +121,8 @@
              {{ page.breadcrumb }}
           </div>
       </div>
-   
-          {% if page.top1 or page.top2 or page.top3 or page.top4 or page.top_head %}
+
+            {% if page.top1 or page.top2 or page.top3 or page.top4 or page.top_head %}
               <div id="main-wrap">
                 <div class="container-fluid">
                   {% if page.top_head %}
@@ -132,9 +132,8 @@
                       </div>
                     </div>
                   {% endif %}
-
-            {% if is_front %}              
-                  {% if page.top1 or page.top2 or page.top3 or page.top4 %}
+                  
+                  {% if page.top1 or page.top2 or page.top3 or page.top4 and is_front %}
                     <div class="row clearfix">
                       {% if page.top1 %}
                         {% if page.top2 and page.top3 and page.top4 %}
@@ -214,7 +213,7 @@
             {% endif %}
 
             <!-- Research Begin-->
-            {% if page.research_highlights %}
+            {% if page.research_highlights and is_front %}
               <section id="research-wrap">
                   <div class="container-fluid">
                   <div class="row">
@@ -230,20 +229,20 @@
               <!-- Research End-->
       
       
-        <!-- news start -->
+           <!-- news start -->
             
-        {% if page.events %}
-          <div id = "events-wrap">
-            {{ page.events }}
-          </div>
-        {% endif %}
+            {% if page.events and is_front %}
+              <div id = "events-wrap">
+                {{ page.events }}
+              </div>
+            {% endif %}
 
-        {% if page.news %}
-          <div id = "news-wrap">
-            {{ page.news }}
-          </div>
-        {% endif %}
-    {% endif %}
+            {% if page.news and is_front%}
+              <div id = "news-wrap">
+                {{ page.news }}
+              </div>
+            {% endif %}
+    
 
 
  <div role="main" class="main-container {{ container }} js-quickedit-main-content">
