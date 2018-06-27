@@ -167,10 +167,11 @@ border-bottom: 1px solid #c4c3cc;
 
 h2.page-title{
   color:#5d5454;
-  font-family:initial;
+  font-family:'Merriweather',serif;
   text-transform: capitalize;
+  font-size: 20px;
 }
-  h2.page-title:before {
+  /* h2.page-title:before {
     content: "";
     display: block;
     background-color: #6c8f6c;
@@ -179,7 +180,7 @@ h2.page-title{
     position: absolute;
     top: 0px;
     width: 5px;
-}
+} */
 
 @media screen and (max-width: 700px ){
 h2.page-title{
