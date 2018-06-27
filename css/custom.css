@@ -169,6 +169,7 @@ h2.page-title{
   color:#5d5454;
   font-family:'Merriweather',serif;
   text-transform: capitalize;
+  font-size: 20px;
 }
   /* h2.page-title:before {
     content: "";
