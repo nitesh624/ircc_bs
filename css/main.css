@@ -584,7 +584,7 @@ left: 100%;
   left: 0px;
   position: absolute;
   width: 2px;
-  top: 10px;
+  top: 5px;
 }
 
 .top_box_bg{
@@ -710,7 +710,7 @@ text-decoration: none;
   background-color:#cef2f2;
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
-  min-height: 390px;
+  min-height: 375px;
   transition: all .5s ease-in-out;
   -webkit-transition: all .5s ease-in-out;
    -moz-transition: all .5s ease-in-out;
@@ -722,7 +722,7 @@ text-decoration: none;
 .rh-title{
   padding: 10px;
   font-family: 'Merriweather', serif;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .rh-title a{
