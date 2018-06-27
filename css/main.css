@@ -1050,6 +1050,7 @@ transition: all 0.5s;
   text-transform: capitalize;
   font-family: 'Merriweather', serif;
   margin-bottom: 20px;
+  margin-top: 0px;
 }
 
 /* .title-widget::before {
