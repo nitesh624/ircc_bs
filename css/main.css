@@ -624,7 +624,9 @@ left: 100%;
   width: 100%;
   height:0;
   transition: .5s ease;
+  text-align: center;
 }
+
 .link-overlay a{
   color:#aeaeae;
   padding-left: 10px;
@@ -682,7 +684,7 @@ text-decoration: none;
 
 
   .research-head{
-    font-family: 'Sanchez', serif;
+    font-family: 'Merriweather', serif;
     font-size: 35px;
     font-weight: bold;
     color: #130c11;
@@ -707,7 +709,6 @@ text-decoration: none;
 
 
 .research-highlights{
-  background-color:#cef2f2;
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   min-height: 375px;
@@ -887,7 +888,7 @@ content: "";
   width: 40px;
   background-color: #1ba74d;
   margin-top: 15px;
-  margin: 10px auto 0px;
+  margin: auto;
 }
 
 
@@ -959,7 +960,7 @@ content: "";
   width: 40px;
   background-color: #1ba74d;
   margin-top: 15px;
-  margin: 10px auto 0px;
+  margin: auto;
 
 }
 
@@ -1020,67 +1021,38 @@ transition: all 0.5s;
 *************************Footer******************************
 *************************************************************/
 
-/* @import url(http://fonts.googleapis.com/css?family=Fjalla+One);
-@import url(http://fonts.googleapis.com/css?family=Gudea); */
-
 
 .footer1 {
     /* background:#e0edef; */
   background: #002139;
-  color: #b2bbc0;
+  color: #aeaeae;
 	padding-top: 40px;
-	padding-right: 0;
-	padding-bottom: 20px;
-  padding-left: 0;
+	padding-bottom: 40px;
   font-size: 12px;
-  /*	border-top-width: 4px;
-	border-top-style: solid;
-	border-top-color: #003;*/
 }
 
 
 .footer1 h2.block-title{
   color: #ffffff;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 600;
-	line-height: 1;
-	position: relative;
 	text-transform: capitalize;
   font-family: 'Merriweather', serif;
-	margin-top: 20px;
-	margin-right: 0;
-	margin-bottom: 20px;
-	margin-left: 0;
-	padding-left: 28px;
+  margin-bottom: 20px;
+  margin-top: 0px;
 }
 
-.footer1 h2.block-title::before{
-  background-color: #ea5644;
-  content: "";
-  height: 22px;
-  left: 0px;
-  position: absolute;
-  top: -2px;
-  width: 5px;
-}
 
 .title-widget {
-  /* color: #898989; */
   color: #ffffff;
-	font-size: 14px;
-	font-weight: 600;
-	line-height: 1;
-	position: relative;
-	text-transform: capitalize;
-	font-family: 'Merriweather', serif;
-	margin-top: 20px;
-	margin-right: 0;
-	margin-bottom: 20px;
-	margin-left: 0;
-	padding-left: 28px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-family: 'Merriweather', serif;
+  margin-bottom: 20px;
 }
 
-.title-widget::before {
+/* .title-widget::before {
     background-color: #ea5644;
     content: "";
     height: 22px;
@@ -1088,7 +1060,7 @@ transition: all 0.5s;
     position: absolute;
     top: -2px;
     width: 5px;
-}
+} */
 
 
 
@@ -1099,16 +1071,11 @@ transition: all 0.5s;
 
 
 .widget_nav_menu li {
-    font-size: 11px;
-    font-weight: 700;
-    /* line-height: 20px; */
+    font-size: 12px;
 	  position: relative;
     text-transform: capitalize;
-  /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     margin-bottom: 0;
     padding-bottom: 0;
-	width:95%;
 }
 .widget_nav_menu li a{
   padding: 5px 0px;
@@ -1118,53 +1085,6 @@ transition: all 0.5s;
 .widget_nav_menu li a:hover {
   color:#ffffff;
 }
-.title-median {
-    color: #636363;
-    font-size: 20px;
-    line-height: 20px;
-    margin: 0 0 15px;
-    text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.footerp p {
-  font-family: 'Open Sans', sans-serif;; 
-}
-
-
-#social:hover {
-    			-webkit-transform:scale(1.1);
--moz-transform:scale(1.1);
--o-transform:scale(1.1);
-			}
-			#social {
-				-webkit-transform:scale(0.8);
-                /* Browser Variations: */
--moz-transform:scale(0.8);
--o-transform:scale(0.8);
--webkit-transition-duration: 0.5s;
--moz-transition-duration: 0.5s;
--o-transition-duration: 0.5s;
-			}
-/*
-    Only Needed in Multi-Coloured Variation
-                                               */
-			.social-fb:hover {
-				color: #3B5998;
-			}
-			.social-tw:hover {
-				color: #4099FF;
-			}
-			.social-gp:hover {
-				color: #d34836;
-			}
-			.social-em:hover {
-				color: #f39c12;
-			}
-			.nomargin { 
-        margin:0px; 
-        padding:0px;
-      }
 
 
 
