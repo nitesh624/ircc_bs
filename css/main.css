@@ -742,7 +742,6 @@ text-decoration: none;
   padding-right: 10px;
   font-weight: normal;
   text-rendering: optimizeLegibility;
-  margin-bottom: 15px;
 }
 .slick-dots{
   width: 100%;
@@ -1303,15 +1302,16 @@ transition: all 0.5s;
     padding-top: 100px;
   }
 }
-  @media screen and (min-width: 767px){
+  /* @media screen and (min-width: 767px){
     .research-highlights:hover{
-      transform: scale(1.05);
+      transform: scale(1.02);
       transition: all .5s ease-in-out;
       -webkit-transition: all .5s ease-in-out;
        -moz-transition: all .5s ease-in-out;
        -o-transition: all .5s ease-in-out;
     }
-  }
+
+  } */
 
   @media screen and (max-width: 600px ){
     .slick-arrow::before{
