@@ -67,9 +67,14 @@
 
 
 /* facets */
+
+section.block-facet-blockfaculty-name1 .facets-widget-checkbox {
+  border-bottom: 1px solid;
+  padding-bottom: 20px;
+}
   section.block-facets {
     border-right: 1px solid #aeaeae;
-   padding-bottom: 40px;
+   padding-bottom: 20px;
   }
 
   section.block-facets .block-title {
