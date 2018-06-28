@@ -73,7 +73,7 @@ section#block-ircc-bs-facultyname1{
 }
   section.block-facets {
     border-right: 1px solid #aeaeae;
-    margin-top: 25px;
+   padding-bottom: 30px;
   }
 
   section.block-facets .block-title {
