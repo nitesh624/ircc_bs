@@ -707,9 +707,12 @@ text-decoration: none;
 
 
 .research-highlights{
+  border: 1px solid #aeaeae;
+  border-radius: 5px;
   font-family: 'Open Sans', sans-serif;
-  font-size: 13px;
-  min-height: 375px;
+  font-size: 12px;
+  min-height: 380px;
+  border: 1px solid #aeaeae;
   transition: all .5s ease-in-out;
   -webkit-transition: all .5s ease-in-out;
    -moz-transition: all .5s ease-in-out;
@@ -861,7 +864,7 @@ text-decoration: none;
 
 #events-wrap{
 background: #002139;
-padding-bottom: 50px;
+padding-bottom: 40px;
 }
 
 .events-head{
