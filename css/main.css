@@ -53,14 +53,23 @@ h2 {
 }
 
 .grey{
-  color: grey!important;
+  color:#5b5b5b;
 }
 
 .dark-grey{
   color:#333434;
 }
 
+.green{
+color: #1ba74d ;
+}
+.blue{
+color: #002139;
+}
 
+.black{
+  color: #130c11;
+}
 /* align item */
 .pos-y_center {
   position: relative;
