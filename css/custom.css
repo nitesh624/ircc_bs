@@ -258,6 +258,22 @@ box-shadow: #4a6568 3px 6px;
   margin-left: 30px;
 }
 
+
+.item-list-search ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item-list-search ul li {
+  padding-left: 1em; 
+  text-indent: -.7em;
+}
+
+.item-list-search ul li::before {
+  content: "• ";
+  color:#1ba74d; /* or whatever color you prefer */
+}
 /* search page */
 
 
