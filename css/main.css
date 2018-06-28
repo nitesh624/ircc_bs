@@ -632,10 +632,8 @@ left: 100%;
   padding-left: 10px;
   padding-top: 5px;
   display: block;
-  text-transform: capitalize;
-  font-weight: bold;
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 12px;
 }
 .link-overlay a:hover{
 color: #ffffff;
@@ -709,9 +707,12 @@ text-decoration: none;
 
 
 .research-highlights{
+  border: 1px solid #aeaeae;
+  border-radius: 5px;
   font-family: 'Open Sans', sans-serif;
-  font-size: 13px;
-  min-height: 375px;
+  font-size: 12px;
+  min-height: 380px;
+  border: 1px solid #aeaeae;
   transition: all .5s ease-in-out;
   -webkit-transition: all .5s ease-in-out;
    -moz-transition: all .5s ease-in-out;
@@ -863,7 +864,7 @@ text-decoration: none;
 
 #events-wrap{
 background: #002139;
-padding-bottom: 50px;
+padding-bottom: 40px;
 }
 
 .events-head{
@@ -893,7 +894,7 @@ content: "";
 
 
 .event-date {
-font-family: "PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif;
+  font-family: 'Merriweather', serif;
  font-size: 30px;
   font-weight: bold;
   color: #1ba74d;
@@ -916,21 +917,23 @@ padding-top: 7px;
 
 .event-title{
 color: #ffffff;
-padding-bottom: 5px;
+/* padding-bottom: 5px; */
 }
 
 .event-title a{
 color: #ffffff;
-font-size: 20px;
+font-family: 'Merriweather', serif;
+font-size: 14px;
 font-weight: bold;
 }
 
 .event-title a:hover{
-text-decoration: none;
 color: #fefefe;
 }
 .event-info{
 color: #ffffff;
+font-size: 12px;
+font-family: "Open Sans", sans-serif;
 }
 
 
@@ -939,7 +942,7 @@ padding-bottom: 40px;
 }
 
 .news-head{
-   width: 100%;
+  width: 100%;
   background: #d6d7d9;
   font-size: 35px;
   font-weight: bold;
@@ -972,16 +975,20 @@ text-align: center;
 
 .news-title a{
 color:#130c11;
-font-size: 20px;
+font-family: 'Merriweather', serif;
+font-size: 14px;
 font-weight: bold;
 text-align: center;
 }
 
 .news-info{
+  height:100px;
   text-align: justify;
- background: -webkit-linear-gradient(#000000, #eeeeee);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  background: -webkit-linear-gradient(#000000, #eeeeee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .news-read-more{
@@ -989,7 +996,7 @@ text-align: center;
 }
 
 .news-read-more a{
-font-size: 12px;
+  font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
   color: #1ba74d;
@@ -1097,9 +1104,8 @@ transition: all 0.5s;
 }
 .copyright {
     color: #fff;
-    line-height: 30px;
     min-height: 30px;
-    padding: 7px 0;
+    /* padding: 7px 0; */
 }
 .footer-bootom-nav {
     color: #fff;

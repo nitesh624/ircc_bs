@@ -47,48 +47,25 @@
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
-.more-link{
-  float: right;
-}
+
 .more-link a{
-  font-size: 16px;
+  float: right;
+  color: #aeaeae;
+  font-size: 14px;
   font-weight: bold;
-  line-height: 50px;
-  padding: 5px 20px;
-  border: 1px solid #009fff;
-  border-radius: 20px;
   -webkit-transition: all 0.5s;
    -moz-transition: all 0.5s;
    -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 .more-link a:hover{
-  background: #009fff;
-  color: #FFF;
-  text-decoration: none;
   -webkit-transition: all 0.5s;
    -moz-transition: all 0.5s;
    -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 
-#research-wrap .more-link a{
-  background: #2f6484;
-  color: #FFF;
-}
 
-#research-wrap .more-link a:hover{
-  background: #009fff;
-}
-
-#events-wrap .more-link a{
-  border: 1px solid #fefefe;
-  color: #fefefe;
-}
-
-#events-wrap .more-link a:hover{
-  color: #ffffff;
-}
 /* facets */
 section#block-ircc-bs-facultyname1{
 
