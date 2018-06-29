@@ -73,6 +73,8 @@
 	})();
 
 
+
+
 	
 	/*Scroll to top when arrow up clicked BEGIN*/
 $(window).scroll(function() {

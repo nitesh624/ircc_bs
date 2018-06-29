@@ -1,5 +1,7 @@
 //resCarousel
-$(document).ready(function() { ResCarouselOnInit(); });
+$(document).ready(function(){
+     ResCarouselOnInit(); 
+    });
 
 $(window).resize(function() {
     var r = new Date();

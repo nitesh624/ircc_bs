@@ -11,6 +11,8 @@ global-styling:
     js/wow.js: {}
     js/wow_custom.js: {}
     js/resCarousel.js: {}
+    js/jquery.font-accessibility.min.js: {}
+    js/easyview.js: {}
   dependencies:
     - core/jquery
 
