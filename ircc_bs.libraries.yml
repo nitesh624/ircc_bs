@@ -4,11 +4,13 @@ global-styling:
       css/custom.css: {}
       css/main.css: {}
       css/animate.css: {}
+      css/resCarousel.css: {}
   js:
     js/custom.js: {}
     js/SmoothScroll.min.js: {}
     js/wow.js: {}
     js/wow_custom.js: {}
+    js/resCarousel.js: {}
   dependencies:
     - core/jquery
 
