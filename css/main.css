@@ -23,9 +23,9 @@ body {
   font-family: "Open Sans", sans-serif;
   min-height: 100%;
   background-color: #ffffff;
-  /* line-height: 1.788; */
-  line-height: 1.55;
-  color: #5b5b5b
+  line-height: 1.788;
+  font-size: 16px;
+  color:#343536;
   font-weight: 400;
   text-rendering: optimizelegibility;
   -webkit-font-smoothing: antialiased;
@@ -911,7 +911,7 @@ text-decoration: none;
 
 #events-wrap{
 background: #002139;
-padding-bottom: 40px;
+padding-bottom: 10px;
 }
 
 .events-head{
@@ -950,16 +950,16 @@ content: "";
 
 .event-loc{
 color: #ffffff;
-padding-top: 7px;
 }
 
 .event-loc:before{
   background-color: #ffffff;
   content: "";
-  height: 68px;
+  height: 50px;
   left: 0px;
   position: absolute;
   width: 1px;
+  top: 0px;
 }
 
 .event-title{
