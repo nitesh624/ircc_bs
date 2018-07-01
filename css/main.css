@@ -461,8 +461,8 @@ left: 100%;
   .navbar-brand {
     height: auto;
     padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 25px;
+    padding-right: 150px;
+    padding-top: 30px;
     font-size: 3rem;
     font-weight: bold;
     color: #006699!important;
@@ -481,20 +481,20 @@ left: 100%;
   }
 
   a.logo{
-    width: 5.5em;
+    width: 5em;
   }
 
   .sec-logo{
     display: inline;
-    max-width: 6em;
+    max-width: 5.5em;
     padding-top: 10px;
   }
   .navbar-text {
     width: 8em;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 14px;
     margin-left: 0px;
-    margin-top: 7px;
+    margin-top: 5px;
     font-family: 'Oswald', 'Lucida Sans Unicode','Lucida Grande',sans-serif;
   }
   .navbar-toggle {
@@ -795,12 +795,16 @@ text-decoration: none;
   width: 100%;
 }
 
+.slick__slide{
+padding-left: 5px;
+padding-right: 5px;
+}
+
 .slide__content,
 .grid__content {
   width: 100%;
 }
 .region-research-highlights .slick__arrow{
-	top: 40%!important;
 	z-index: 2;
 }
 
@@ -1407,7 +1411,6 @@ transition: all 0.5s;
     display: inline;
     max-width: 4em;
     padding-top: 10px;
-    
   }
 
 }
@@ -1415,7 +1418,20 @@ transition: all 0.5s;
 @media screen and (max-width: 300px){
   .navbar-brand{
     max-width: 130px;
+    line-height: 15px;
   }
+  .navbar .logo {
+    margin-right: -10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+a.logo {
+  width: 5em;
+}
+img.sec-logo{
+  max-width: 3.5em;
+}
+
 }
 
 
