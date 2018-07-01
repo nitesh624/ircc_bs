@@ -1450,11 +1450,11 @@ img.sec-logo{
 
 @media screen and (min-width: 767px)
 {
-  #slick-views-research-highlights-block-1-1{
+  .region-research-highlights #slick-views-research-highlights-block-1-1{
     padding-left: 4em;
     padding-right: 4em;
   }
-  .slick-arrow{
+  .region-research-highlights .slick-arrow{
     border: 1px solid black;
     border-radius: 5px;
   }
