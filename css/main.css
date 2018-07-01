@@ -309,8 +309,8 @@ button:focus {
 @media (max-width: 767px) {
 
   .navbar-toggle{
-    margin-top: 10px;
-    padding: 6px 10px;
+    margin-top: 15px;
+    padding: 2px 6px;
     color:#ffffff;
   }
   .navbar-white{
@@ -498,7 +498,7 @@ left: 100%;
     font-family: 'Oswald', 'Lucida Sans Unicode','Lucida Grande',sans-serif;
   }
   .navbar-toggle {
-    background: #262628;
+    background: #afafaf;
   }
 
   .navbar-toggle:hover{
@@ -811,29 +811,34 @@ padding-right: 5px;
 .slick-arrow{
   position: absolute;
   background: transparent;
-  height: 80px;
+  height: 50px;
   color: transparent;
+  border: 1px solid black;
+  border-radius: 6px;
 }
 
 .slick-prev::before{
 content: "\f104";
 font-family: FontAwesome;
-padding: 0 10px;
+padding: 0 5px;
 color: #000;
 position: absolute;
-font-size: 50px;
+font-size: 45px;
+font-weight: bold;
 top: 0%;
 left: 20%;
 }
 .slick-next::before{
   content: "\f105";
   font-family: FontAwesome;
-  padding: 0 10px;
+  padding: 0 5px;
   color: #000;
   position: absolute;
-  font-size: 50px;
+  font-size: 45px;
+  font-weight: bold;
   top: 0%;
   right: 20%;
+  
 }
 
 .rh-img{
@@ -845,23 +850,10 @@ left: 20%;
     opacity: 0.6;
   } 
 
-/* 
-  .slick-arrow::before {
-    color: #000000;
-    font-size: 4rem;
+  #slick-views-research-highlights-block-1-1{
+    padding-left: 4em;
+    padding-right: 4em;
   }
-
-  .slick-arrow{
-    background: #ffffff;
-    padding-top: 3px;
-  }
-
-  .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
-    color: transparent;
-    outline: none;
-    background: #ffffff;
-}
-   */
 
 
 
@@ -1389,7 +1381,7 @@ transition: all 0.5s;
 
 @media screen and (max-width:700px){
   #main-wrap{
-    padding-top: 100px;
+    padding-top: 0px;
   }
 }
 
