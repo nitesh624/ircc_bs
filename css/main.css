@@ -552,7 +552,7 @@ left: 100%;
 /* top box front page */
 
 #main-wrap {
-  padding-top: 22px;
+  padding-top: 14px;
   width: 100%;
   height:100%;
   /* background: url(../img/research.jpg) fixed; */
@@ -850,11 +850,6 @@ left: 20%;
     height: 200px!important;
     opacity: 0.6;
   } 
-
-  #slick-views-research-highlights-block-1-1{
-    padding-left: 4em;
-    padding-right: 4em;
-  }
 
 
 
@@ -1455,6 +1450,17 @@ img.sec-logo{
 
 }
 
+@media screen and (min-width: 767px)
+{
+  #slick-views-research-highlights-block-1-1{
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+  .slick-arrow{
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+}
 
   /* @media screen and (min-width: 767px){
     .research-highlights:hover{
