@@ -276,6 +276,7 @@ box-shadow: #4a6568 3px 6px;
 .item-list-search ul li {
   padding-left: 1em; 
   text-indent: -.7em;
+  line-height: 1;
 }
 
 .item-list-search ul li::before {
