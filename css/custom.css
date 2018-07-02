@@ -50,8 +50,8 @@
 
 .more-link a{
   float: right;
-  color: #aeaeae;
-  font-size: 14px;
+  color: #9b9797;
+  font-size: 16px;
   font-weight: bold;
   -webkit-transition: all 0.5s;
    -moz-transition: all 0.5s;
@@ -68,11 +68,11 @@
 
 /* facets */
 
-section.block-facet-blockfaculty-name3 .facets-widget-checkbox{
+section.block-facet-blockdepartment-technologies .facets-widget-checkbox{
   border-bottom: 1px solid #aeaeae;
   padding-bottom: 20px;
 }
-section.block-facet-blockfaculty-name1 .facets-widget-checkbox {
+section.block-facet-blockdepartment-fa .facets-widget-checkbox {
   border-bottom: 1px solid #aeaeae;
   padding-bottom: 20px;
 }
