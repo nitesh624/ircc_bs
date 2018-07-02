@@ -20,9 +20,10 @@ html {
 body {
   position: initial;
   overflow-x: hidden;
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: "COOP-Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
   min-height: 100%;
-  background-color: #ffffff;
+  background-color: #fff;
   line-height: 1.788;
   font-size: 16px;
   color:#343536;
