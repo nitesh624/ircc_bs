@@ -1497,6 +1497,17 @@ transition: all 0.5s;
   .region-research-highlights .slick-arrow{
     border: 1px solid black;
     border-radius: 5px;
+    -webkit-transition: all 0.5s;
+     -moz-transition: all 0.5s;
+     -o-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .region-research-highlights .slick-arrow:hover{
+    background-color: #e3e3ed;
+    -webkit-transition: all 0.5s;
+     -moz-transition: all 0.5s;
+     -o-transition: all 0.5s;
+    transition: all 0.5s;
   }
 }
 
