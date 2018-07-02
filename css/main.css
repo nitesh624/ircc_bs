@@ -32,6 +32,11 @@ body {
   -moz-osx-font-smoothing: grayscale; 
 }
 
+a {
+  color: #046ab8;
+  text-decoration: underline;
+}
+
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.41398;
   font-weight: 700; }
@@ -771,7 +776,8 @@ text-decoration: none;
 
 .rh-title{
   padding: 10px;
-  font-family: 'Merriweather', serif;
+  /* font-family: 'Merriweather', serif; */
+  font-family: "COOP-Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 14px;
 }
 
@@ -786,6 +792,8 @@ text-decoration: none;
 
 
 .rh-body{
+  font-size: 14px;
+  font-family: "COOP-Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
   padding-left: 10px;
   padding-right: 10px;
   font-weight: normal;
@@ -1117,7 +1125,7 @@ transition: all 0.5s;
 
 .title-widget {
   color: #ffffff;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   text-transform: capitalize;
   font-family: 'Merriweather', serif;
@@ -1308,6 +1316,12 @@ transition: all 0.5s;
     margin-left: 28px;
     font-size: 2.5rem;
   }
+  .region-content{
+    font-size: 14px;
+  }
+  .node-field-label{
+    font-size: 16px;
+  }
  
 }
 
@@ -1318,6 +1332,18 @@ transition: all 0.5s;
   .navbar-brand {
     padding: 20px;
     font-size: 2rem;
+  }
+  .region-content{
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .region-content{
+    font-size: 13px;
+  }
+  .node-field-label{
+    font-size: 14px;
   }
 }
 
@@ -1337,6 +1363,9 @@ transition: all 0.5s;
   }
     .navbar-brand {
       max-width: 300px;
+    }
+    .region-content{
+      font-size: 13px;
     }
 }
 
@@ -1370,6 +1399,14 @@ transition: all 0.5s;
   }
   .footer-bottom ul.menu li{
     display: inline;
+  }
+
+  .title-widget{
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .widget_nav_menu li a {
+    padding: 3px 0px;
   }
 }
 
@@ -1423,10 +1460,12 @@ transition: all 0.5s;
 
   img.sec-logo{
     display: inline;
-    max-width: 4em;
-    padding-top: 10px;
+    max-width: 3em;
+    padding-top: 15px;
   }
-
+  .region-content{
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 300px){
@@ -1438,13 +1477,13 @@ transition: all 0.5s;
     margin-right: -10px;
     padding-left: 5px;
     padding-right: 5px;
-}
-a.logo {
-  width: 5em;
-}
-img.sec-logo{
-  max-width: 3.5em;
-}
+  } 
+  a.logo {
+    width: 3em;
+  }
+  img.sec-logo{
+    max-width: 2.5em;
+  }
 
 }
 

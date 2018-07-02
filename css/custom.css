@@ -161,11 +161,11 @@ h2.page-title{
 
 @media screen and (max-width: 700px ){
 h2.page-title{
-  font-size: 1.5rem;
+  font-size: 14px;
   }
-.main-container {
-  padding-top: 90px;
-}
+  .main-container {
+    padding-top: 10px;
+  }
 }
 .region-content .slick{
   background: #f7f6f6;
@@ -177,9 +177,13 @@ h2.page-title{
 }
 
 @media screen and (max-width: 767px){
-.region-content .slick img{
-  height:260px;
-}
+  .region-content .slick img{
+    height:260px;
+  }
+  ul.tabs--primary li a{
+    font-size: 12px;
+    padding: 5px 5px;
+  }
 }
 
 @media screen and (max-width: 500px){
@@ -278,6 +282,10 @@ box-shadow: #4a6568 3px 6px;
   content: "• ";
   color:#1ba74d; /* or whatever color you prefer */
   font-weight: bold;
+}
+
+.item-list-search ul li a{
+  font-size: 14px;
 }
 /* search page */
 
