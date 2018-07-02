@@ -606,17 +606,17 @@ left: 100%;
   background-color: #ffffff;
   /* border-radius: 8px; */
 }
-/* .box-container{
+.box-container{
   position: relative;
   background: #002139;
 
-} */
-.block-content--type-top-box div:nth-child(even){
+}
+/* .block-content--type-top-box div:nth-child(even){
   background: #1ba74d;
 }
 .block-content--type-top-box div:nth-child(even){
   background: #002139;
-}
+} */
 
 
 /* .box-container:nth-child(1){
