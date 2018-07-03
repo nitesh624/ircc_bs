@@ -190,6 +190,13 @@ h2.page-title{
     height:200px;
   }
   }
+
+ .field-expertise-faculty ul{
+   max-height: 400px;
+    overflow-y: scroll;
+    border: solid 1px #aeaeae;
+    padding: 10px;
+}
 /*nodepage end*/
 
 /* award page */
