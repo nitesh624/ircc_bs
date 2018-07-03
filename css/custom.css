@@ -285,7 +285,12 @@ box-shadow: #4a6568 3px 6px;
 }
 
 .item-list-search ul li a{
-  font-size: 14px;
+  font-size: 16px;
+}
+
+nav#block-searchsidebar{
+  border: 1px solid #aeaeae;
+  border-radius: 5px;
 }
 /* search page */
 
