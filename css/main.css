@@ -1405,7 +1405,7 @@ transition: all 0.5s;
 
 @media screen and (max-width: 450px) {
   .navbar-brand {
-    max-width: 130px;
+    max-width: 150px;
     padding: 8pt;
     margin-left: 0px;
     font-size: 10pt;
