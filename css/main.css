@@ -792,7 +792,7 @@ text-decoration: none;
 }
 
 .rh-title a:hover{
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 
