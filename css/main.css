@@ -866,7 +866,7 @@ left: 20%;
   transition: all 0.5s;
   } 
 
-  .research-highlights img{
+  .research-highlights img:hover{
     opacity: 1;
     -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
