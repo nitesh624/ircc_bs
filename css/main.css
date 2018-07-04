@@ -860,9 +860,19 @@ left: 20%;
     width: 100% !important;
     height: 200px!important;
     opacity: 0.6;
+    -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
   } 
 
-
+  .research-highlights img{
+    opacity: 1;
+    -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  }
 
   p.rh-page-cont-title{
     font-size: 1rem;
