@@ -146,6 +146,7 @@ h2.page-title{
   color:#5d5454;
   font-family:'Merriweather',serif;
   font-size: 20px;
+  margin-bottom: 0px;
 }
   /* h2.page-title:before {
     content: "";
@@ -333,6 +334,9 @@ box-shadow: #4a6568 3px 6px;
 nav#block-searchsidebar{
   border: 1px solid #aeaeae;
   border-radius: 5px;
+}
+.item-list-search h3{
+  font-size: 16px;
 }
 
 /* search page */
