@@ -15,7 +15,9 @@ html {
 
 @media (max-width: 768px) {
   html {
-    font-size: 14px; } }
+    font-size: 12pt; 
+  } 
+}
 
 body {
   position: initial;
@@ -25,7 +27,7 @@ body {
   min-height: 100%;
   background-color: #fff;
   line-height: 1.788;
-  font-size: 14pt;
+  font-size: 12pt;
   color:#343536;
   font-weight: 400;
   text-rendering: optimizelegibility;
@@ -490,7 +492,7 @@ left: 100%;
   }
 
   a.logo{
-    width: 5em;
+    width: 4.5em;
   }
 
   .sec-logo{
@@ -501,10 +503,10 @@ left: 100%;
   .navbar-text {
     width: 10em;
     font-weight: 400;
-    color: #666;
-    font-size: 16px;
+    color: #666!important;
+    font-size: 12pt;
     line-height: 1.1;
-    margin: 15px 0;
+    margin: 15pt 0;
     font-family: 'Oswald', 'Lucida Sans Unicode','Lucida Grande',sans-serif;
   }
   .navbar-toggle {
@@ -1281,11 +1283,10 @@ transition: all 0.5s;
 
 @media screen and (max-width: 1000px){
   .sec-logo {
-    max-width: 7em
+    max-width: 5em;
   }
   .navbar-brand {
-    padding: 20px;
-    font-size: 2rem;
+    padding: 30px;
   }
   .region-content{
     font-size: 14px;
@@ -1312,7 +1313,7 @@ transition: all 0.5s;
   }
   .sec-logo {
     display: inline;
-    max-width: 5em;
+    max-width: 4.5em;
     float: right;
   }
     .navbar-brand {
@@ -1397,10 +1398,10 @@ transition: all 0.5s;
 
 @media screen and (max-width: 450px) {
   .navbar-brand {
-    max-width: 140px;
-    padding: 10px;
+    max-width: 130px;
+    padding: 12pt;
     margin-left: 0px;
-    font-size: 12px;
+    font-size: 8pt;
     line-height: 20px;
   }
   .sec-logo {
@@ -1409,7 +1410,7 @@ transition: all 0.5s;
     
   }
   a.logo {
-    width: 5em;
+    width: 4.5em;
   }
 
   img.sec-logo{
