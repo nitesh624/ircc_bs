@@ -27,7 +27,7 @@ body {
   min-height: 100%;
   background-color: #fff;
   line-height: 1.788;
-  font-size: 12pt;
+  font-size: 14pt;
   color:#343536;
   font-weight: 400;
   text-rendering: optimizelegibility;
@@ -1301,12 +1301,15 @@ transition: all 0.5s;
   .node-field-label{
     font-size: 14px;
   }
+  .navbar-text {
+    width: 8em;
+  }
 }
 
 @media screen and (max-width: 768px){
   .navbar-brand{
-    font-size: 16px;
-    padding: 15px;
+    font-size: 14pt;
+    padding: 15pt;
     font-weight: normal;
     /* margin-left: 58px; */
     float:left;
@@ -1364,6 +1367,16 @@ transition: all 0.5s;
   .widget_nav_menu li a {
     padding: 3px 0px;
   }
+  #main-wrap{
+    padding-top: 0px;
+  }
+  .navbar-text{
+    margin: 7pt;
+    font-size: 10pt;
+    width: 8em;
+  }
+
+    
 }
 
 @media screen and (max-width:700px){
@@ -1372,19 +1385,12 @@ transition: all 0.5s;
   }
 }
 
-@media screen and (max-width: 700px) {
-  .navbar-text{
-    display: none;
-  }
-  /* .navbar-brand{
-    display: block;
-  } */
-}
+
 
 
 @media screen and (max-width: 600px) {
-  .navbar-brand{
-    max-width: 200px;
+  .navbar-text{
+    display: none;
   }
 }
 
@@ -1400,9 +1406,9 @@ transition: all 0.5s;
 @media screen and (max-width: 450px) {
   .navbar-brand {
     max-width: 130px;
-    padding: 12pt;
+    padding: 8pt;
     margin-left: 0px;
-    font-size: 8pt;
+    font-size: 10pt;
     line-height: 20px;
   }
   .sec-logo {
