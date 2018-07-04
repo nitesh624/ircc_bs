@@ -492,12 +492,12 @@ left: 100%;
   }
 
   a.logo{
-    width: 5em;
+    width: 4.5em;
   }
 
   .sec-logo{
     display: inline;
-    max-width: 6em;
+    max-width: 5em;
     padding-top: 10px;
   }
   .navbar-text {
