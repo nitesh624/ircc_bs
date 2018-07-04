@@ -492,12 +492,12 @@ left: 100%;
   }
 
   a.logo{
-    width: 4.5em;
+    width: 5em;
   }
 
   .sec-logo{
     display: inline;
-    max-width: 5.5em;
+    max-width: 6em;
     padding-top: 10px;
   }
   .navbar-text {
@@ -506,7 +506,7 @@ left: 100%;
     color: #666!important;
     font-size: 12pt;
     line-height: 1.1;
-    margin: 15pt 0;
+    margin: 12pt 0;
     font-family: 'Oswald', 'Lucida Sans Unicode','Lucida Grande',sans-serif;
   }
   .navbar-toggle {
@@ -1271,6 +1271,7 @@ transition: all 0.5s;
     /* padding: 10px 10px; */
     margin-left: 28px;
     font-size: 2.5rem;
+    padding-right: 100px;
   }
   .region-content{
     font-size: 14px;
