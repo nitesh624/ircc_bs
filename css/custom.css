@@ -216,14 +216,13 @@ h2.page-title{
 
 .node-type-link  > a:before {
   content: "";
+  display: block;
   position: absolute;
-  width: 100%;
+  width: 140px;
+  top: 29px;
   height: 3px;
-  bottom: 0;
-  left: 0;
   background: #1ba74d;
   visibility: hidden;
-  border-radius: 5px;
   transform: scaleX(0);
   transition: .25s linear;
 }
