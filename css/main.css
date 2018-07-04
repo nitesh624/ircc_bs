@@ -25,7 +25,7 @@ body {
   min-height: 100%;
   background-color: #fff;
   line-height: 1.788;
-  font-size: 16px;
+  font-size: 14pt;
   color:#343536;
   font-weight: 400;
   text-rendering: optimizelegibility;
@@ -499,11 +499,12 @@ left: 100%;
     padding-top: 10px;
   }
   .navbar-text {
-    width: 8em;
-    font-weight: normal;
-    font-size: 14px;
-    margin-left: 0px;
-    margin-top: 5px;
+    width: 10em;
+    font-weight: 400;
+    color: #666;
+    font-size: 16px;
+    line-height: 1.1;
+    margin: 15px 0;
     font-family: 'Oswald', 'Lucida Sans Unicode','Lucida Grande',sans-serif;
   }
   .navbar-toggle {
