@@ -199,7 +199,7 @@ h2.page-title{
 }
 
 .node-type-link a{
-  font-size: 20px;
+  font-size: 16px;
   /* margin-bottom: 29px; */
   color: #615a5a;
   font-family: 'Merriweather',serif;
@@ -208,11 +208,9 @@ h2.page-title{
 .node-type-link a:after{
   content: "";
   display: block;
-  height: 4px;
-  width: 30px;
+  height: 3px;
+  width: 40px;
   background-color: #1ba74d;
-  margin-top: 15px;
-  margin: auto;
 }
 
 /*nodepage end*/
