@@ -204,6 +204,7 @@ h2.page-title{
   /* margin-bottom: 29px; */
   color: #615a5a;
   font-family: 'Merriweather',serif;
+  text-decoration: underline;
 }
 
 /* .node-type-link a:after{
