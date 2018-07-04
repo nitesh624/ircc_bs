@@ -197,6 +197,24 @@ h2.page-title{
     border: solid 1px #aeaeae;
     padding: 10px;
 }
+
+.node-type-link a{
+  font-size: 20px;
+  /* margin-bottom: 29px; */
+  color: #615a5a;
+  font-family: 'Merriweather',serif;
+}
+
+.node-type-link a:after{
+  content: "";
+  display: block;
+  height: 4px;
+  width: 30px;
+  background-color: #1ba74d;
+  margin-top: 15px;
+  margin: auto;
+}
+
 /*nodepage end*/
 
 /* award page */
@@ -282,7 +300,7 @@ box-shadow: #4a6568 3px 6px;
 .item-list-search ul li {
   padding-left: 1em; 
   text-indent: -.7em;
-  line-height: 1;
+  line-height: 1.35;
 }
 
 .item-list-search ul li::before {
