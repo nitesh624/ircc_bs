@@ -11,12 +11,8 @@
 
 
 html {
-  height: 100% }
-
-@media (max-width: 768px) {
-  html {
-    font-size: 12pt; 
-  } 
+  height: 100%;
+  font-size: 100%;
 }
 
 body {
@@ -474,7 +470,7 @@ left: 100%;
     padding-left: 100px;
     padding-right: 150px;
     padding-top: 30px;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
     color: #1ba74d!important;
     font-family: 'Oswald', 'Lucida Sans Unicode','Lucida Grande',sans-serif;
@@ -579,13 +575,12 @@ left: 100%;
   background: #062d3e;
 }
 .top-head p {
-  font-size: 2rem;
-  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
   width: 100%;
   margin: 20px auto;
   text-align: center;
   color: white;
-  font-weight: bold;
 }
 
 
@@ -595,7 +590,7 @@ left: 100%;
 }
 .top-box-title{
   font-family: 'Merriweather', serif;
-  font-size: 20px;
+  font-size: 1.3rem;
 }
 
 .top-box-title:after{
@@ -691,8 +686,8 @@ left: 100%;
 .link-overlay a{
   color:#aeaeae;
   padding-top: 5px;
-  /* font-family: 'Open Sans', sans-serif; */
-  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
 }
 .link-overlay a:hover{
 color: #ffffff;
@@ -746,7 +741,7 @@ text-decoration: none;
 
   .research-head{
     font-family: 'Merriweather', serif;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #130c11;
     text-align: center;
@@ -900,7 +895,7 @@ padding-bottom: 10px;
 .events-head{
   width: 100%;
   background: #345474;
-  font-size: 25px;
+  font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -974,7 +969,7 @@ padding-bottom: 40px;
 .news-head{
   width: 100%;
   background: #d6d7d9;
-  font-size: 25px;
+  font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
   font-family: 'Merriweather', serif;
