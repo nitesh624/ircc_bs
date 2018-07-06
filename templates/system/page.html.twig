@@ -237,18 +237,19 @@
       
       
         <!-- news start -->
-            
+        {% if page.news %}
+          <div id = "news-wrap">
+                  {{ page.news }}
+          </div>
+        {% endif %}
+
         {% if page.events %}
           <div id = "events-wrap">
               {{ page.events }}
           </div>
         {% endif %}
 
-        {% if page.news  %}
-          <div id = "news-wrap">
-                  {{ page.news }}
-          </div>
-        {% endif %}
+        
     {% endif %}
 
   {% if not is_front %}
