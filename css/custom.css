@@ -84,7 +84,7 @@ section.block-facet-blockdepartment-fa .facets-widget-checkbox {
   section.block-facets .block-title {
     padding-left: 10px;
     font-family: 'merriweather',serif;
-    font-size: 16px;
+    font-size: 1rem;
     margin-top: 0px;
   }
 
@@ -337,9 +337,18 @@ box-shadow: #4a6568 3px 6px;
 nav#block-searchsidebar{
   border: 1px solid #aeaeae;
   border-radius: 5px;
+  text-align: center;
 }
 .item-list-search h3{
   font-size: 16px;
+}
+
+#block-searchsidebar-menu{
+  font-size: 1rem;
+    text-align: center;
+    margin: 0pt;
+    padding: 0.5rem;
+    border-bottom: 1px solid #aeaeae;
 }
 
 /* search page */
