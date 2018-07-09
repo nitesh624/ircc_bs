@@ -1075,7 +1075,7 @@ font-family: "Open Sans", sans-serif;
   color: #aeaeae;
 	padding-top: 40px;
 	padding-bottom: 40px;
-  font-size:  0.75rem;
+  font-size:  0.85rem;
 }
 
 
@@ -1122,7 +1122,7 @@ font-family: "Open Sans", sans-serif;
 
 
 .widget_nav_menu li {
-    font-size:  0.75rem;
+    font-size:  0.85rem;
 	  position: relative;
     text-transform: capitalize;
     margin-bottom: 0;
