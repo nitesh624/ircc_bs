@@ -1073,13 +1073,13 @@ font-family: "Open Sans", sans-serif;
   color: #aeaeae;
 	padding-top: 40px;
 	padding-bottom: 40px;
-  font-size: 12px;
+  font-size:  0.75rem;
 }
 
 
 .footer1 h2.block-title{
   color: #ffffff;
-	font-size: 14px;
+	font-size: 1rem;
 	font-weight: 600;
 	text-transform: capitalize;
   font-family: 'Merriweather', serif;
@@ -1087,10 +1087,13 @@ font-family: "Open Sans", sans-serif;
   margin-top: 0px;
 }
 
+.region-footer1 a{
+  color: #aeaeae;
+}
 
 .title-widget {
   color: #ffffff;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 600;
   text-transform: capitalize;
   font-family: 'Merriweather', serif;
@@ -1117,7 +1120,7 @@ font-family: "Open Sans", sans-serif;
 
 
 .widget_nav_menu li {
-    font-size: 12px;
+    font-size:  0.75rem;
 	  position: relative;
     text-transform: capitalize;
     margin-bottom: 0;
