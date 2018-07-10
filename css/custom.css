@@ -172,8 +172,11 @@ h2.page-title{
   /* border: 1px solid #b4c4ca; */
 }
 .region-content .slick img { 
-    width: 80%;
-    height:400px;
+  display: block;
+  max-width: 60%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
 }
 
 @media screen and (max-width: 767px){
