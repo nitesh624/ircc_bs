@@ -927,7 +927,7 @@ left: 20%;
   
   .news-title{
   color: #000000;
-  padding-bottom: 5px;
+  /* padding-bottom: 5px; */
   text-align: center;
   line-height: 1.2;
   }
@@ -1358,16 +1358,16 @@ transition: all 0.5s;
   }
 
   .views-row-news, .views-row-events{
-    margin-bottom: 40px;
+    margin-bottom: 3rem;
   }
   .footer-widget{
-    margin-bottom: 40px;
+    margin-bottom: 2rem;
   }
 }
 
 @media screen and (max-width:767px){
 .footer-bootom-nav a {
-  font-size: 12px;
+  font-size: 0.75rem;
   }
   .footer-bottom ul.menu li{
     display: inline;
