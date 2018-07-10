@@ -1051,7 +1051,7 @@ font-weight: bold;
 }
 
 .event-title a:hover{
-color: #fefefe;
+text-decoration: underline;
 }
 .event-info{
 color: #130c11;
