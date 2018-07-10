@@ -198,7 +198,13 @@ h2.page-title{
     border: solid 1px #aeaeae;
     padding: 10px;
 }
-
+.btn-success a{
+color: #fff;
+}
+.btn-success a:hover{
+text-decoration: none;
+}
+  
 .node-type-link a{
   font-size: 16px;
   /* margin-bottom: 29px; */
