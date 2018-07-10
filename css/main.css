@@ -1029,7 +1029,7 @@ content: "";
   color: #130c11;
 }
 
-.event-loc:before{
+/* .event-loc:before{
   background-color: #6b6a6a;
   content: "";
   height: 100%;
@@ -1037,8 +1037,16 @@ content: "";
   position: absolute;
   width: 1pt;
   top: 0em;
+} */
+.event-date:after {
+  background-color: #6b6a6a;
+  content: "";
+  height: 100%;
+  right: 0em;
+  position: absolute;
+  width: 0.06rem;
+  top: 0em;
 }
-
 .event-title{
   color: #130c11;
 }
