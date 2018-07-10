@@ -100,21 +100,15 @@ section.block-facet-blockdepartment-fa .facets-widget-checkbox {
 
 }
 
-.facets-widget-checkbox .facet-item label {
-  padding-left: 5px;
-  display: inline;
-}
-
-
 .block-facet--checkbox{
   padding-bottom: 5px;
   line-height: 15px;
 }
 
 .facet-item__value{
-  font-size: 13px;
+  font-size: 0.8rem;
   font-weight: normal;
-  line-height: 20px;
+  line-height: 1.8;
 }
 
 .facet-item__count{
