@@ -194,15 +194,20 @@ h2.page-title{
 
  .field-expertise-faculty ul{
    max-height: 400px;
-    overflow-y: scroll;
+    overflow-y: auto;
     border: solid 1px #aeaeae;
-    padding: 10px;
+    padding: 0.5em !important;
 }
-.btn-success a{
+.btn-success a, .btn a{
 color: #fff;
 }
-.btn-success a:hover{
+.btn-success a:hover, .btn a:hover{
 text-decoration: none;
+}
+
+.faculty-page-middle{
+  padding-left: 0.5em;
+  border-left: 1px solid #aeaeae;
 }
   
 .node-type-link a{
