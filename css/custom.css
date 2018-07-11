@@ -230,7 +230,7 @@ text-decoration: none;
 } */
 
 
-.node-type-link  > a:before {
+/* .node-type-link  > a:before {
   content: "";
   display: block;
   position: absolute;
@@ -246,7 +246,7 @@ text-decoration: none;
 .node-type-link  > a:focus:before {
   visibility: visible;
   transform: scaleX(1);
-}
+} */
 
 
 
