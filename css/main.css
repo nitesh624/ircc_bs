@@ -1073,8 +1073,8 @@ font-family: "Open Sans", sans-serif;
     /* background:#e0edef; */
   background: #002139;
   color: #aeaeae;
-	padding-top: 40px;
-	padding-bottom: 40px;
+  padding-top: 2em;
+  padding-bottom: 2em;
   font-size:  0.85rem;
 }
 
@@ -1099,7 +1099,6 @@ font-family: "Open Sans", sans-serif;
   font-weight: 600;
   text-transform: capitalize;
   font-family: 'Merriweather', serif;
-  margin-bottom: 20px;
   margin-top: 0px;
 }
 
@@ -1129,7 +1128,7 @@ font-family: "Open Sans", sans-serif;
     padding-bottom: 0;
 }
 .widget_nav_menu li a{
-  padding: 5px 0px;
+  padding:0px;
   color: #aeaeae;
 }
 
@@ -1349,14 +1348,14 @@ transition: all 0.5s;
     font-weight: normal;
   }
   .research-head{   
-    font-size: 2rem;
+    font-size: 1.3rem;
   }
   .news-head {   
-    font-size: 2rem;
+    font-size: 1.3rem;
   }
 
   .events-head {   
-    font-size: 2rem;
+    font-size: 1.3rem;
   }
 
   .views-row-news, .views-row-events{
@@ -1376,12 +1375,9 @@ transition: all 0.5s;
   }
 
   .title-widget{
-    font-size: 12px;
     margin-bottom: 10px;
   }
-  .widget_nav_menu li a {
-    padding: 3px 0px;
-  }
+
   #main-wrap{
     padding-top: 0px;
   }
