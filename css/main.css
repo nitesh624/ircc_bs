@@ -1172,7 +1172,11 @@ font-family: "Open Sans", sans-serif;
   display: inline;
 }
 
-.footer-bottom ul.menu li:first-child {
+ul.menu--account li{
+  line-height: 2;
+}
+
+.footer-bottom ul.menu--footer li:first-child {
   border-left: none !important;
 }
 
