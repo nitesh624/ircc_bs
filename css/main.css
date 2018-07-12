@@ -467,9 +467,9 @@ left: 100%;
 
   .navbar-brand {
     height: auto;
-    padding-left: 100px;
-    padding-right: 150px;
-    padding-top: 25px;
+    padding-left: 5em ;
+    padding-right: 4em ;
+    padding-top: 0.8em;
     font-size: 2rem;
     font-weight: bold;
     color: #1ba74d!important;
@@ -502,7 +502,7 @@ left: 100%;
     color: #666!important;
     font-size: 12pt;
     line-height: 1.1;
-    margin: 12pt 0;
+    margin: 0.8em 0;
     font-family: 'Oswald', 'Lucida Sans Unicode','Lucida Grande',sans-serif;
   }
   .navbar-toggle {
