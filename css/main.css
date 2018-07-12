@@ -771,7 +771,7 @@ text-decoration: none;
   border-radius: 5px;
   font-family: 'Open Sans', sans-serif;
   font-size: 0.85rem;
-  min-height: 400px;
+  min-height: 28em;
   border: 1px solid #aeaeae;
   transition: all .5s ease-in-out;
   -webkit-transition: all .5s ease-in-out;
@@ -782,7 +782,7 @@ text-decoration: none;
 
 
 .rh-title{
-  padding: 10px;
+  padding: 5pt;
   /* font-family: 'Merriweather', serif; */
   font-family: "COOP-Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 0.90rem;
@@ -800,8 +800,8 @@ text-decoration: none;
 
 .rh-body{
   font-family: "COOP-Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 5pt;
+  padding-right: 5pt;
   font-weight: normal;
   text-rendering: optimizeLegibility;
 }
