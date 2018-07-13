@@ -14,7 +14,7 @@
   position: fixed;
   bottom: 50px;
   right: 10px;
-  background-color: #d87032;
+  background-color: #1ba74d;
   color: #ffffff;
   text-align: center;
   font-size: 30px;
@@ -332,14 +332,20 @@ box-shadow: #4a6568 3px 6px;
   line-height: 1.35;
 }
 
-.item-list-search ul li::before {
+.item-list-search ul a::before {
+  content: "• ";
+  color:#1ba74d; /* or whatever color you prefer */
+  font-weight: bold;
+}
+
+.item-list-green ul li::before {
   content: "• ";
   color:#1ba74d; /* or whatever color you prefer */
   font-weight: bold;
 }
 
 .item-list-search ul li a{
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 nav#block-searchsidebar{
@@ -348,7 +354,7 @@ nav#block-searchsidebar{
   text-align: center;
 }
 .item-list-search h3{
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 #block-searchsidebar-menu{
@@ -513,7 +519,8 @@ a.close-form{
 /* research glimpse page grid */
 .views-field-field-image-glimpse img, .views-field-field-facility-image img{
 width: 100%!important;
-height: 200px!important;
+height: auto;
+max-height: 12em;
 transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
      -moz-transition: all .5s ease-in-out;
