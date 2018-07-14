@@ -320,18 +320,20 @@ box-shadow: #4a6568 3px 6px;
 }
 
 
-.item-list-search ul {
+.item-list-green ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.item-list-search ul li {
+.item-list-green ul li {
   padding-left: 1em; 
   text-indent: -.7em;
   line-height: 1.35;
 }
-
+.item-list-green ul li p {
+display: inline;
+}
 .item-list-search ul a::before {
   content: "• ";
   color:#1ba74d; /* or whatever color you prefer */
