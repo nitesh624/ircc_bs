@@ -116,7 +116,7 @@
   
 
       {% if page.breadcrumb %}
-      <div class="container-fluid">
+      <div class="{{ container }}">
        <div class="row clearfix">
           <div class="col-md-12">
              {{ page.breadcrumb }}
@@ -219,6 +219,15 @@
               </div>
             {% endif %}
 
+        <!-- news start -->
+        {% if page.news %}
+          <div id = "news-wrap">
+                  {{ page.news }}
+          </div>
+        {% endif %}
+        <!-- news end -->
+
+
             <!-- Research Begin-->
             {% if page.research_highlights %}
               <section id="research-wrap">
@@ -235,13 +244,6 @@
             {% endif %}
               <!-- Research End-->
       
-      
-        <!-- news start -->
-        {% if page.news %}
-          <div id = "news-wrap">
-                  {{ page.news }}
-          </div>
-        {% endif %}
 
         {% if page.events %}
           <div id = "events-wrap">
@@ -272,7 +274,7 @@
   
         {# Sidebar First #}
       {% if page.sidebar_first or page.sidebar_second or page.content %}
-        <div class="container-fluid">
+        <div class="{{ container }}">
           <div class="row clearfix" id="main-wrapper">
               {% if page.sidebar_first %}
                 {% block sidebar_first %}
@@ -326,7 +328,7 @@
 {% if page.footer1 or page.footer2 or page.footer3 or page.footer4 or page.footer_bar_left or page.footer_bar_right %}
   <footer class="footer1" role="contentinfo">
     {% if page.footer1 or page.footer2 or page.footer3 or page.footer4 %}
-      <div class="container-fluid">
+      <div class="{{ container }}">
         <div class="row">
           {% if page.footer1 %}
             {% if page.footer2 and page.footer3 and page.footer4 %}
@@ -414,7 +416,7 @@
     {% endif %}
 
   <div class="footer-bottom">
-      <div class="container-fluid">
+      <div class="{{ container }}">
           <div class="row">
             {% if page.footer_bar_left %}
               {% block footer_bar_left %}
