@@ -497,6 +497,10 @@ left: 100%;
     width: 4.5em;
   }
 
+  a.logo2{
+    margin-right: 3em;
+  }
+  
   .sec-logo{
     display: inline;
     max-width: 5em;
