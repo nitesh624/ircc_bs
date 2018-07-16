@@ -1496,16 +1496,24 @@ transition: all 0.5s;
   }
 }
 
-  /* @media screen and (min-width: 767px){
-    .research-highlights:hover{
-      transform: scale(1.02);
-      transition: all .5s ease-in-out;
-      -webkit-transition: all .5s ease-in-out;
-       -moz-transition: all .5s ease-in-out;
-       -o-transition: all .5s ease-in-out;
-    }
+@media screen and (min-width:1400px){
+  .container {
+    width: 1370px;
+  }
+}
 
-  } */
 
+@media screen and (min-width:1600px){
+  .container {
+    width: 1570px;
+  }
+}
+
+
+@media screen and (min-width:1900px){
+  .container {
+    width: 1870px;
+  }
+}
 
 /* media queries */
