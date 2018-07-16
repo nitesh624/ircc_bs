@@ -464,14 +464,20 @@ left: 100%;
         -ms-transform: translateY(-100%);
             transform: translateY(-100%);
   }
+  .navbar-header {
+    float: left;
+    text-align: center;
+    width: 100%;
+  }
+  .navbar-brand {float:none;}
+
 
   .navbar-brand {
     height: auto;
-    padding-left: 5em ;
     padding-right: 4em ;
-    padding-top: 0.8em;
     font-size: 2rem;
     font-weight: bold;
+    line-height: 2;
     color: #1ba74d!important;
     font-family: 'Oswald', 'Lucida Sans Unicode','Lucida Grande',sans-serif;
     -webkit-transition: all 0.5s;
@@ -494,7 +500,6 @@ left: 100%;
   .sec-logo{
     display: inline;
     max-width: 5em;
-    padding-top: 10px;
   }
   .navbar-text {
     width: 10em;

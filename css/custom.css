@@ -448,7 +448,7 @@ nav#block-searchsidebar{
 
 .navbar-search form {
   position: absolute;
-  right: 3rem;
+  right: 4rem;
   top: 0.6rem;
   width: 18rem;
   z-index: 3;
