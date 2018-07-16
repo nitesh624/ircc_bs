@@ -500,7 +500,7 @@ left: 100%;
   a.logo2{
     margin-right: 3em;
   }
-  
+
   .sec-logo{
     display: inline;
     max-width: 5em;
@@ -870,7 +870,7 @@ left: 20%;
 }
 .research-highlights img{
     width: 100% !important;
-    height: 200px!important;
+    max-height: 15em!important;
     opacity: 0.6;
     -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
