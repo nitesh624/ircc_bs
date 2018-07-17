@@ -191,7 +191,7 @@ h2.page-title{
 
  .field-expertise-faculty ul{
     height: 400px;
-    overflow: auto;
+    overflow-y: auto;
     border: solid 1px #aeaeae;
     padding-left: 0.5em !important;
 }
