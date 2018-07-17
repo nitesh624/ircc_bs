@@ -39,6 +39,10 @@ a:focus{
   outline: none;
 }
 
+a:hover{
+  text-decoration: none;
+}
+
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.41398;
   font-weight: 700; }
@@ -474,7 +478,7 @@ left: 100%;
 
   .navbar-brand {
     height: auto;
-    padding-right: 4em ;
+    padding-right: 3em ;
     font-size: 2rem;
     font-weight: bold;
     line-height: 2;
