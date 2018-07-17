@@ -1,8 +1,13 @@
 (function($){
     $(window).on("load",function(){
         $(".field-expertise-faculty ul").mCustomScrollbar({
-            theme: "dark",
-            scrollButtons: 1
+            theme: "dark-thick",
+            setHeight: "300px",
+            scrollbarPosition: "inside",
+            scrollInertia: 600,
+            scrollButtons: { 
+                enable: true 
+            }
         });
     });
 })(jQuery);
