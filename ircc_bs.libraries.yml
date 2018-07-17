@@ -35,3 +35,14 @@ additional-library:
     includes/bootstrap-dropdownhover.min.js: {}
   dependencies:
     - core/jquery
+
+custom-scrollbar:
+  css:
+    theme:
+      includes/custom-scrollbar/jquery.mCustomScrollbar.css: {}
+  js:
+    includes/custom-scrollbar/jquery.mCustomScrollbar.concat.min.js: {}
+    includes/custom-scrollbar/jquery.mCustomScrollbar.min.js: {}
+    includes/custom-scrollbar/scrollelement.js: {}
+  dependencies:
+    - core/jquery

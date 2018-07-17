@@ -37,3 +37,4 @@ libraries:
   - ircc_bs/font-awesome
   - ircc_bs/webfonts
   - ircc_bs/additional-library
+  - ircc-bs/custom-scrollbar
